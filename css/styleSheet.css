@@ -74,46 +74,7 @@ h4 {
 
 
 
-/* about css */
-                
-.AboutTwo {
-    background: #3E3D3D;
-    color: white;
-    
-}
 
-/* End of about css */
-                
-                
-
-/* contact section*/
-
-
-
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.363);
-   margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    background-color: #f2f2f2;
-    
-} 
-
-input[type=submit] {
-    background-color:#a3827c ;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #a3826c;
-}
 
 
 /* Get involved (mobile) */
@@ -128,21 +89,7 @@ input[type=submit]:hover {
 
 @media (min-width: 1200px) and (orientation: landscape) {
 
-     /* about css */
-     .HeadingOne {
-        font-size: 40px;
-    }
-    .about {
-        margin-top: 25vh;
-        color: white;
-    }
-    .aboutImg {
-        width: 30vw;
-        height: 70vh;
-    }
-    #carouselExampleControls {
-        margin-top: 10vh;
-    }
+    
 
     /* Community section (desktop) */
     .imgDiv {
@@ -189,29 +136,6 @@ input[type=submit]:hover {
 
 }
 
-.contact {
-    border-radius: 5px;
-    
-    padding: 10px;
-    
-}
 
-
-.column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* end of contact section */
 
 
