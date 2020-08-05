@@ -74,6 +74,25 @@ h4 {
 
 /* about css */
                 
+<<<<<<< HEAD
+                @media (min-width: 1200px) and (orientation: landscape) {
+                    /* about css */
+                    .HeadingOne {
+                        font-size: 50px;
+                    }
+                    .about {
+                        margin-top: 25vh;
+                        color: white;
+                    }
+                    .aboutImg {
+                        width: 30vw;
+                        height: 70vh;
+                    }
+                    #carouselExampleControls {
+                        margin-top: 10vh;
+                    }
+                }
+=======
 .AboutTwo {
     background: #3E3D3D;
     color: white;
@@ -207,3 +226,4 @@ input[type=submit]:hover {
 /* end of contact section */
 
 
+>>>>>>> e55afa9c6e727d1f0afadb59a82609d55122ea61
