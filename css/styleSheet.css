@@ -41,6 +41,16 @@ h4 {
 
 /* End of Header */
 
+/* Footer */
+
+.footer {
+    background-color: #EFEFEE;
+}
+.name{
+    font-weight: 700;
+}
+/* End of Footer */
+
 /* Community section */
 /* general */
 #community {
@@ -58,18 +68,9 @@ h4 {
 }
 
 .recipe {
-
-/* Footer */
-
-.footer{
-    background-color: #EFEFEE;
+ background-color: #A3826C;
 }
-.name{
-    font-weight: 700;
-}
-/* End of Footer */
 
-.aboutImg {}
 
 /* about css */
                 
@@ -78,6 +79,8 @@ h4 {
     color: white;
     
 }
+
+/* End of about css */
                 
                 
 
@@ -121,6 +124,22 @@ input[type=submit]:hover {
 
 
 @media (min-width: 1200px) and (orientation: landscape) {
+
+     /* about css */
+     .HeadingOne {
+        font-size: 40px;
+    }
+    .about {
+        margin-top: 25vh;
+        color: white;
+    }
+    .aboutImg {
+        width: 30vw;
+        height: 70vh;
+    }
+    #carouselExampleControls {
+        margin-top: 10vh;
+    }
 
     /* Community section */
     .imgDiv {
@@ -186,22 +205,5 @@ input[type=submit]:hover {
     clear: both;
 }
 /* end of contact section */
-/* desk-top view styles  */
-  @media (min-width: 1200px) and (orientation: landscape) {
-                    /* about css */
-                    .HeadingOne {
-                        font-size: 40px;
-                    }
-                    .about {
-                        margin-top: 25vh;
-                        color: white;
-                    }
-                    .aboutImg {
-                        width: 30vw;
-                        height: 70vh;
-                    }
-                    #carouselExampleControls {
-                        margin-top: 10vh;
-                    }
-                }
+
 
