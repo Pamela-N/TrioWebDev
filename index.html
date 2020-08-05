@@ -43,11 +43,12 @@
         </div>
     </nav>
     <!--End of Navbar -->
-
-
+  
     <!-- Header -->
-
-
+    <div class="container-fluid HeroImage">
+        <h1 class="heroText">To teach, to transform, <br> to triumph.</h1>
+    </div>
+    <!-- End of Header -->
 
     <!-- About Section -->
     <section id="About">
@@ -99,17 +100,8 @@
             </div>
 
         </section>
-        <!-- Optional JavaScript -->
-        <script src="js/myScript.js"></script>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <div class="container-fluid HeroImage">
-        <h1 class="heroText">To teach, to transform, <br> to triumph.</h1>
-    </div>
-    <!-- End of Header -->
-  
+    <!-- end of about page -->
+
     <!-- Qoute -->
     <!-- <div class="row">
         <div class="col-xl-6 quote text-left p-5">
@@ -118,7 +110,52 @@
         </div>
     </div> -->
     <!-- End of Quote -->
- 
+
+      <!-- contact section -->
+      <section>
+     
+        <div class="container-fluid contact"  color: white;">
+         
+          <div class="row">
+            <div class="column info">
+              <h1>Contact us</h1>
+              <p>Feel free to contact us with any question</p>
+              <h4 class="mt-5">Email</h4>
+              <p>info@trio.org.za</p>
+              <h4 class="mt-5">Phone</h4>
+              <p>(000) 123-5844  </p>
+             
+            </div>
+            
+            <div class="column">
+              <form action="/action_page.php">
+
+
+                <div class="names">
+                <p>Name*</p>
+                <p> <input type="text" id="fname" name="firstname" placeholder=""> </p>
+                <label for="fname"><p>First Name</p></label>
+               </div>
+                <div class="names mt-5">
+                
+               <p><input type="text" id="lname" name="lastname" placeholder=""></p>
+               <label for="lname"> <p>Last Name</p> </label>
+            </div>
+                                 
+            <div class="">
+            <label for="email"> <p>Email*</p> </label>
+            <p><input type="text" id="email" name="email" placeholder=""></p>
+                <label for="subject"><p>Message*</p> </label>
+               <p> <textarea id="subject" name="subject" placeholder="" style="height:120px"></textarea></p>
+                <p><input class="mt-5" type="submit" value="Submit"></p>
+            </div>
+              </form>
+            </div>
+  
+          </section>
+  
+  <!-- end of contact sectcion -->
+
     <!-- Footer -->
     <div class="container-fluid footer">
         <div class="row">
@@ -150,6 +187,7 @@
           </div>
     </div>
     <!-- End of Footer -->
+
 
     <!-- Optional JavaScript -->
     <script src="js/myScript.js"></script>

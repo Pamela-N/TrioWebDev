@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,27 +19,8 @@ h4 {
     font-family: 'Vollkorn', serif;
 }
 
-/* Header */
-.heroText {
-    font-size: 60px;
-    margin-left: 5vw;
-    color: white;
-    position: relative;
-    top: 300px;
-}
 
-.HeroImage{
-    margin-top: 0;
-  background-image: url("../assets/images/TrioBanner.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
-/* End of Header */
 
 /* Footer */
 
@@ -68,25 +48,6 @@ h4 {
 }
 /* End of Footer */
 
-/* Community section */
-/* general */
-#community {
-    background-color: #3e3d3d;
-    color: white;
-}
-
-.heading {
-    text-align: center;
-}
-
-.team {
-    height: 70vh;
-    width: 90vw;
-}
-
-.recipe {
- background-color: #A3826C;
-}                
 
 /* contact section*/
 
@@ -94,7 +55,7 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    padding: 12px;
+    padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.363);
    margin-top: 6px;
     margin-bottom: 16px;
@@ -106,7 +67,7 @@ textarea {
 input[type=submit] {
     background-color:#a3827c ;
     color: white;
-    padding: 12px 20px;
+    padding: 20px 28px;
     border: none;
     cursor: pointer;
 }
@@ -114,6 +75,47 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #a3826c;
 }
+
+.names{
+position: relative;
+    width: 48%;
+    margin-top: 6px;
+    padding: 0px;
+    display: inline-block;
+
+
+}
+.contact {
+    border-radius: 5px;
+    
+    padding: 1px;
+    
+}
+
+.info{
+    position: relative;
+    margin-left: 40px;
+}
+.column {
+    float: left;
+    width: 48%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+#lname{
+    position: relative;
+    margin-left: 20px;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* end of contact section */
+
 /* desk   */
 @media (min-width: 1200px) and (orientation: landscape) {
     /* about css */
@@ -127,6 +129,7 @@ input[type=submit]:hover {
     #carouselExampleControls {
         margin-top: 10vh;
     }
+  /* End of About section   */
 }
-
+  
 
