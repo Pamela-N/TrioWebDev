@@ -34,28 +34,75 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ml-auto">
 
-                <a href="#About" class="nav-item nav-link" style="color: black;font-size:20px;">About</a>
-                <a href="#Community" class="nav-item nav-link" style="color: black; font-size: 20px;">Community</a>
-                <a href="#Involved" class="nav-item nav-link" style="color: black; font-size: 20px;">Get Involved</a>
-                <a href="#Contact" class="nav-item nav-link" style="color: black;font-size: 20px;">Contact</a>
+                <a href="#About" class="nav-item nav-link" style="color: black;font-size:20px;"><h4>About</h4></a>
+                <a href="#Community" class="nav-item nav-link" style="color: black; font-size: 20px;"><h4>Community</h4></a>
+                <a href="#Involved" class="nav-item nav-link" style="color: black; font-size: 20px;"><h4>Get Involved</h4></a>
+                <a href="#Contact" class="nav-item nav-link" style="color: black;font-size: 20px;"><h4>Contact</h4></a>
 
             </div>
         </div>
     </nav>
     <!--End of Navbar -->
   
-  
     <!-- Header -->
-
     <div class="container-fluid HeroImage">
         <h1 class="heroText">To teach, to transform, <br> to triumph.</h1>
     </div>
     <!-- End of Header -->
 
-    
+    <!-- About Section -->
+    <section id="About">
+        <section class="container-fluid AboutOne">
+            <div class="row ">
+
+                <div class=" col-sm-12 col-lg-6 mt-5 text-left p-5 ">
+                    <h3 class="HeadingOne">To be the difference and pay it <br> to those in need through<br> life changing <br> experiences.</h3>
+
+                </div>
+                <div class="col-lg-6   ">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active p-5">
+                                <h1>Who we Are </h1><br>
+                                <p>Trio is a community of people working collaboratively to better the Cape Flats Community. Currently Trio is a catalyst for feeding, uplifting, skilling and a platform for job creation.
+                                </p>
+                            </div>
+                            <div class="carousel-item p-5">
+                                <h1>How we started </h1><br>
+                                <p>Trio was founded in 2016 by a group of young individuals who are trying to make a difference in the community through social upliftment by empowering the youth with various skill sets ranging from unskilled to Skilled workers.
+                                    That’s just one entity of what we are doing</p>
+                            </div>
+                            <div class="carousel-item p-5">
+                                <h1>Our vision </h1><br>
+                                <p>To be the difference and pay it forward to those in need through life changing experiences.</p>
+                            </div>
+
+                            <div class="carousel-item p-5">
+                                <h1>Our mission </h1><br>
+                                <p>
+                                    Our goals are to teach, transform and triumph in everything we do. We will give back to the community in need and contribute to eradicating hunger amongst the underprivileged. We will provide a platform to uplift, skill and empower entry level job seekers
+                                    through practical experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+            </div>
+
+        </section>
+    <!-- end of about page -->
   
-  
-   <!-------- Our Community Section --------->
+  <!-------- Our Community Section --------->
     <section id="Community">
 
 <!-- -------------------------------- -->
@@ -154,13 +201,63 @@
 
     <!-- End of Get Involved Section -->
 
+    <!-- Qoute -->
+    <!-- <div class="row">
+        <div class="col-xl-6 quote text-left p-5">
+            <h1>“Remember that the happiest people are not those getting more, but those giving more.”</h1>
+            <p>-H Jackson Brown Jnr.</p>
+        </div>
+    </div> -->
+    <!-- End of Quote -->
 
-     
+<!--  contact section     -->
+        <div class="container-fluid contact"  color: white;">
+         
+          <div class="row">
+            <div class="column info">
+              <h1>Contact us</h1>
+              <p>Feel free to contact us with any question</p>
+              <h4 class="mt-5">Email</h4>
+              <p>info@trio.org.za</p>
+              <h4 class="mt-5">Phone</h4>
+              <p>(000) 123-5844  </p>
+             
+            </div>
+            
+            <div class="column">
+              <form action="/action_page.php">
+
+
+                <div class="names">
+                <p>Name*</p>
+                <p> <input type="text" id="fname" name="firstname" placeholder=""> </p>
+                <label for="fname"><p>First Name</p></label>
+               </div>
+                <div class="names mt-5">
+                
+               <p><input type="text" id="lname" name="lastname" placeholder=""></p>
+               <label for="lname"> <p>Last Name</p> </label>
+            </div>
+                                 
+            <div class="">
+            <label for="email"> <p>Email*</p> </label>
+            <p><input type="text" id="email" name="email" placeholder=""></p>
+                <label for="subject"><p>Message*</p> </label>
+               <p> <textarea id="subject" name="subject" placeholder="" style="height:120px"></textarea></p>
+                <p><input class="mt-5" type="submit" value="Submit"></p>
+            </div>
+              </form>
+            </div>
+  
+          </section>
+  
+  <!-- end of contact sectcion -->
+
 
     <!-- Footer -->
     <div class="container-fluid footer">
         <div class="row">
-            <div class="col mt-5">
+            <div class="col-5 mt-5 ml-5">
                 <h1 class="name">TRIO</h1>
                 <br>
                 <p>123 Demo Street
@@ -170,24 +267,25 @@
                     <p><i class='fa fa-copyright'></i>Trio 2020</p>
 
             </div>
-            <div class="col mt-5">
-              <h4>Get Involved</h4>
+            <div class="col mt-5 ml-5 text-centre">
+              <p class="footerHeading">Get Involved</p>
               <br>
-              <a href="donate">Donate</a>
+              <a class="footerA" href="donate">Donate</a>
               <br>
-              <a href="volunteer">Volunteer</a>
+              <a class="footerA" href="volunteer">Volunteer</a>
               <br>
-              <a href="sponsors">Sponsors & Partners</a>
+              <a class="footerA" href="sponsors">Sponsors & Partners</a>
             </div>
-            <div class="col mt-5">
-                <h4>Social</h4>
+            <div class="col mt-5 ml-5 text-centre">
+                <p class="footerHeading">Social</p>
                 <br>
-                <a href=""><i class='fa fa-facebook' style='font-size:24px'></i></a>
-                <a href=""><i class='fa fa-instagram' style='font-size:24px'></i></a>
+                <a href="https://www.facebook.com/trioCPT"><i style='font-size:48px;color:#A3826C' class='fa'>&#xf09a;</i></a>
+                <a href="https://www.instagram.com/tri_ottt/?hl=en"><i class='fa fa-instagram icon' style='font-size:48px;color:#A3826C'></i></a>
             </div>
           </div>
     </div>
     <!-- End of Footer -->
+
 
     <!-- Optional JavaScript -->
     <script src="js/myScript.js"></script>

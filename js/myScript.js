@@ -1,3 +1,4 @@
+
 // const whole = document.querySelector('.involved');
 // const donate = document.querySelector('.fa-shopping-basket');
 // const banking = document.querySelector('.details');
@@ -47,3 +48,4 @@ show.addEventListener('click', () => {
     butto.style.display = 'block';
     show.style.display = 'none';
 });
+

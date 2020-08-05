@@ -19,6 +19,7 @@ h4 {
     font-family: 'Vollkorn', serif;
 }
 
+
 /* Header */
 .heroText {
     font-size: 60px;
@@ -41,10 +42,27 @@ h4 {
 
 /* End of Header */
 
+
 /* Footer */
 
+.footerHeading {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.footerA {
+    color: #A3826C;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
 .footer {
     background-color: #EFEFEE;
+}
+
+.icon{
+    margin-left: 12px;
 }
 .name{
     font-weight: 700;
@@ -58,10 +76,6 @@ h4 {
     color: white;
 }
 
-.heading {
-    text-align: center;
-}
-
 .team {
     height: 70vh;
     width: 100vw;
@@ -73,9 +87,28 @@ h4 {
 /* End of Community section */
 
 
+/* contact section*/
 
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+   margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
+    
+} 
 
-
+input[type=submit] {
+    background-color:#a3827c ;
+    color: white;
+    padding: 20px 28px;
+    border: none;
+    cursor: pointer;
+}
 
 /* Get involved (mobile) */
 .details {
@@ -87,10 +120,61 @@ h4 {
 /* End of Get involved section */
 
 
-@media (min-width: 1200px) and (orientation: landscape) {
+.names{
+position: relative;
+    width: 48%;
+    margin-top: 6px;
+    padding: 0px;
+    display: inline-block;
 
+
+}
+.contact {
+    border-radius: 5px;
     
+    padding: 1px;
+    
+}
 
+.info{
+    position: relative;
+    margin-left: 40px;
+}
+.column {
+    float: left;
+    width: 48%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+#lname{
+    position: relative;
+    margin-left: 20px;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* end of contact section */
+
+/* desk   */
+@media (min-width: 1200px) and (orientation: landscape) {
+    /* about css */
+    .HeadingOne {
+        font-size: 40px;
+    }
+    .about {
+        margin-top: 25vh;
+        color: white;
+    }
+    #carouselExampleControls {
+        margin-top: 10vh;
+    }
+  /* End of About section   */
+  
     /* Community section (desktop) */
     .imgDiv {
         text-align: center;
@@ -132,10 +216,7 @@ h4 {
         margin: 0px 20vw;
         background-color: rgba(146, 219, 146, 0.4);
     }
-    /* End of Get involved */
-
+  /* End of Get involved */
 }
-
-
-
+  
 
