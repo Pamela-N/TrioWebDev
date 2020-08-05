@@ -1,0 +1,62 @@
+/* Community section */
+/* general */
+.heading {
+    text-align: center;
+}
+
+.team {
+    height: 70vh;
+    width: 90vw;
+}
+
+
+/* Get involved */
+.details {
+    border: 5px solid #EDA443;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(146, 219, 146, 0.4);
+}
+
+
+@media (min-width: 1200px) and (orientation: landscape) {
+
+    /* Community section */
+    .imgDiv {
+        text-align: center;
+    }
+
+    .team {
+        text-align: center;
+        width: 45vh;
+        height: 50vh;
+        margin-bottom: 30px;
+    }
+
+    .exit {
+        color: black;
+        float: right;
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+
+
+    /* Get involved */
+    .subheadings {
+        text-align: center;
+    }
+    .details {
+        border: 5px solid #EDA443;
+        margin-right: 15px;
+        margin-left: 25vw;
+        background-color: rgba(146, 219, 146, 0.4);
+        width: 50vw;
+    }
+    .Register {
+        border: 5px dotted #5580AA;
+        padding: 10px;
+        margin: 0px 20vw;
+        background-color: rgba(146, 219, 146, 0.4);
+    }
+}
