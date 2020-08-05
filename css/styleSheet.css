@@ -1,5 +1,80 @@
-                /* about css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p,
+a {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Vollkorn', serif;
+}
+
+/* Header */
+.heroText {
+    font-size: 60px;
+    margin-left: 5vw;
+    color: white;
+    position: relative;
+    top: 300px;
+}
+
+.HeroImage{
+    margin-top: 0;
+  background-image: url("../assets/images/TrioBanner.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* End of Header */
+
+/* Footer */
+
+.footer {
+    background-color: #EFEFEE;
+}
+.name{
+    font-weight: 700;
+}
+/* End of Footer */
+
+/* Community section */
+/* general */
+#community {
+    background-color: #3e3d3d;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+}
+
+.team {
+    height: 70vh;
+    width: 90vw;
+}
+
+.recipe {
+ background-color: #A3826C;
+}
+
+
+/* about css */
                 
+<<<<<<< HEAD
                 @media (min-width: 1200px) and (orientation: landscape) {
                     /* about css */
                     .HeadingOne {
@@ -17,3 +92,138 @@
                         margin-top: 10vh;
                     }
                 }
+=======
+.AboutTwo {
+    background: #3E3D3D;
+    color: white;
+    
+}
+
+/* End of about css */
+                
+                
+
+/* contact section*/
+
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+   margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
+    
+} 
+
+input[type=submit] {
+    background-color:#a3827c ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #a3826c;
+}
+
+
+/* Get involved */
+.details {
+    border: 5px solid #EDA443;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(146, 219, 146, 0.4);
+}
+
+
+@media (min-width: 1200px) and (orientation: landscape) {
+
+     /* about css */
+     .HeadingOne {
+        font-size: 40px;
+    }
+    .about {
+        margin-top: 25vh;
+        color: white;
+    }
+    .aboutImg {
+        width: 30vw;
+        height: 70vh;
+    }
+    #carouselExampleControls {
+        margin-top: 10vh;
+    }
+
+    /* Community section */
+    .imgDiv {
+        text-align: center;
+    }
+
+    .team {
+        text-align: center;
+        width: 45vh;
+        height: 50vh;
+        margin-bottom: 30px;
+    }
+
+    .exit {
+        color: black;
+        float: right;
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+
+
+    /* Get involved */
+    .subheadings {
+        text-align: center;
+    }
+    .details {
+        border: 5px solid #EDA443;
+        margin-right: 15px;
+        margin-left: 25vw;
+        background-color: rgba(146, 219, 146, 0.4);
+        width: 50vw;
+    }
+    .Register {
+        border: 5px dotted #5580AA;
+        padding: 10px;
+        margin: 0px 20vw;
+        background-color: rgba(146, 219, 146, 0.4);
+    }
+}
+
+.contact {
+    border-radius: 5px;
+    
+    padding: 10px;
+    
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* end of contact section */
+
+
+>>>>>>> e55afa9c6e727d1f0afadb59a82609d55122ea61
