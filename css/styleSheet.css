@@ -46,9 +46,8 @@ h4 {
 .footerHeading {
     font-size: 23px;
     font-weight: 400;
-}
 
-.footerA {
+  .footerA {
     color: #A3826C;
     text-decoration: underline;
     font-size: 20px;
@@ -67,6 +66,90 @@ h4 {
     font-weight: 700;
 }
 /* End of Footer */
+
+/* Community section */
+/* general */
+#community {
+    background-color: #3e3d3d;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+}
+
+.team {
+    height: 70vh;
+    width: 90vw;
+}
+
+.recipe {
+ background-color: #A3826C;
+}
+
+
+/* about css */
+                
+
+                @media (min-width: 1200px) and (orientation: landscape) {
+                    /* about css */
+                    .HeadingOne {
+                        font-size: 50px;
+                    }
+                    .about {
+                        margin-top: 25vh;
+                        color: white;
+                    }
+                    .aboutImg {
+                        width: 30vw;
+                        height: 70vh;
+                    }
+                    #carouselExampleControls {
+                        margin-top: 10vh;
+                    }
+                }
+
+.AboutTwo {
+    background: #3E3D3D;
+    color: white;
+    
+}
+
+/* End of about css */
+                
+                
+
+/* contact section*/
+
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+   margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
+    
+} 
+
+input[type=submit] {
+    background-color:#a3827c ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #a3826c;
+}
+
+
+
 
 
 
