@@ -51,7 +51,7 @@ h4 {
 }
 /* End of Footer */
 
-/* Community section */
+/* Community section (mobile) */
 /* general */
 #community {
     background-color: #3e3d3d;
@@ -64,12 +64,14 @@ h4 {
 
 .team {
     height: 70vh;
-    width: 200vw;
+    width: 100vw;
 }
 
-.recipe {
- background-color: #A3826C;
+.fullRecipe {
+    font-size: smaller;
 }
+/* End of Community section */
+
 
 
 /* about css */
@@ -114,13 +116,14 @@ input[type=submit]:hover {
 }
 
 
-/* Get involved */
+/* Get involved (mobile) */
 .details {
     border: 5px solid #EDA443;
     padding: 10px;
     margin: 20px;
     background-color: rgba(146, 219, 146, 0.4);
 }
+/* End of Get involved section */
 
 
 @media (min-width: 1200px) and (orientation: landscape) {
@@ -141,16 +144,16 @@ input[type=submit]:hover {
         margin-top: 10vh;
     }
 
-    /* Community section */
+    /* Community section (desktop) */
     .imgDiv {
         text-align: center;
     }
 
     .team {
         text-align: center;
-        width: 45vh;
-        height: 50vh;
-        margin-bottom: 30px;
+        width: 40vw;
+        height: 75vh;
+        margin: 0px 20px;
     }
 
     .exit {
@@ -160,12 +163,14 @@ input[type=submit]:hover {
         font-weight: bold;
         margin-right: 50px;
     }
+    /* End of Community section */
 
 
-    /* Get involved */
+    /* Get involved (desktop) */
     .subheadings {
         text-align: center;
     }
+
     .details {
         border: 5px solid #EDA443;
         margin-right: 15px;
@@ -173,12 +178,15 @@ input[type=submit]:hover {
         background-color: rgba(146, 219, 146, 0.4);
         width: 50vw;
     }
+
     .Register {
         border: 5px dotted #5580AA;
         padding: 10px;
         margin: 0px 20vw;
         background-color: rgba(146, 219, 146, 0.4);
     }
+    /* End of Get involved */
+
 }
 
 .contact {
