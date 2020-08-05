@@ -20,6 +20,27 @@ h4 {
 }
 
 
+/* Header */
+.heroText {
+    font-size: 60px;
+    margin-left: 5vw;
+    color: white;
+    position: relative;
+    top: 300px;
+}
+
+.HeroImage{
+    margin-top: 0;
+  background-image: url("../assets/images/TrioBanner.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* End of Header */
 
 
 /* Footer */
@@ -27,8 +48,9 @@ h4 {
 .footerHeading {
     font-size: 23px;
     font-weight: 400;
+}
 
-  .footerA {
+.footerA {
     color: #A3826C;
     text-decoration: underline;
     font-size: 20px;
