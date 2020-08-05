@@ -1,3 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p,
+a {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Vollkorn', serif;
+}
+
+/* Header */
+.heroText {
+    font-size: 60px;
+    margin-left: 5vw;
+    color: white;
+    position: relative;
+    top: 300px;
+}
+
+.HeroImage{
+    margin-top: 0;
+  background-image: url("../assets/images/TrioBanner.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* End of Header */
+
 /* Community section */
 /* general */
 #community {
@@ -15,6 +58,54 @@
 }
 
 .recipe {
+
+/* Footer */
+
+.footer{
+    background-color: #EFEFEE;
+}
+.name{
+    font-weight: 700;
+}
+/* End of Footer */
+
+  /* about css */
+                
+.AboutTwo {
+    background: #3E3D3D;
+    color: white;
+}
+
+.aboutImg {}
+                
+              
+
+/* contact section*/
+
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+   margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
+    
+} 
+
+input[type=submit] {
+    background-color:#a3827c ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
     background-color: #a3826c;
 }
 
@@ -69,3 +160,50 @@
         background-color: rgba(146, 219, 146, 0.4);
     }
 }
+
+.contact {
+    border-radius: 5px;
+    
+    padding: 10px;
+    
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* end of contact section */
+/* desk-top view styles  */
+  @media (min-width: 1200px) and (orientation: landscape) {
+                    /* about css */
+                    .HeadingOne {
+                        font-size: 50px;
+                    }
+                    .about {
+                        margin-top: 25vh;
+                        color: white;
+                    }
+                    .HeadingOne {
+                        font-size: 50px;
+                    }
+                    .aboutImg {
+                        width: 30vw;
+                        height: 70vh;
+                    }
+                    #carouselExampleControls {
+                        margin-top: 10vh;
+                    }
+                }
+
