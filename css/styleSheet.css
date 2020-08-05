@@ -43,8 +43,24 @@ h4 {
 
 /* Footer */
 
+.footerHeading {
+    font-size: 23px;
+    font-weight: 400;
+
+  .footerA {
+    color: #A3826C;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 5px;
+
+}
 .footer {
     background-color: #EFEFEE;
+}
+
+.icon{
+    margin-left: 12px;
 }
 .name{
     font-weight: 700;
@@ -74,7 +90,7 @@ h4 {
 
 /* about css */
                 
-<<<<<<< HEAD
+
                 @media (min-width: 1200px) and (orientation: landscape) {
                     /* about css */
                     .HeadingOne {
@@ -92,7 +108,7 @@ h4 {
                         margin-top: 10vh;
                     }
                 }
-=======
+
 .AboutTwo {
     background: #3E3D3D;
     color: white;
@@ -133,97 +149,8 @@ input[type=submit]:hover {
 }
 
 
-/* Get involved */
-.details {
-    border: 5px solid #EDA443;
-    padding: 10px;
-    margin: 20px;
-    background-color: rgba(146, 219, 146, 0.4);
-}
 
 
-@media (min-width: 1200px) and (orientation: landscape) {
-
-     /* about css */
-     .HeadingOne {
-        font-size: 40px;
-    }
-    .about {
-        margin-top: 25vh;
-        color: white;
-    }
-    .aboutImg {
-        width: 30vw;
-        height: 70vh;
-    }
-    #carouselExampleControls {
-        margin-top: 10vh;
-    }
-
-    /* Community section */
-    .imgDiv {
-        text-align: center;
-    }
-
-    .team {
-        text-align: center;
-        width: 45vh;
-        height: 50vh;
-        margin-bottom: 30px;
-    }
-
-    .exit {
-        color: black;
-        float: right;
-        font-size: 25px;
-        font-weight: bold;
-        margin-right: 50px;
-    }
 
 
-    /* Get involved */
-    .subheadings {
-        text-align: center;
-    }
-    .details {
-        border: 5px solid #EDA443;
-        margin-right: 15px;
-        margin-left: 25vw;
-        background-color: rgba(146, 219, 146, 0.4);
-        width: 50vw;
-    }
-    .Register {
-        border: 5px dotted #5580AA;
-        padding: 10px;
-        margin: 0px 20vw;
-        background-color: rgba(146, 219, 146, 0.4);
-    }
-}
 
-.contact {
-    border-radius: 5px;
-    
-    padding: 10px;
-    
-}
-
-
-.column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* end of contact section */
-
-
->>>>>>> e55afa9c6e727d1f0afadb59a82609d55122ea61
