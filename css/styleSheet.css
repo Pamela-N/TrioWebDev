@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p,
+a {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Vollkorn', serif;
+}
+
+/* Header */
+.heroText {
+    font-size: 60px;
+    margin-left: 5vw;
+    color: white;
+    position: relative;
+    top: 300px;
+}
+
+.HeroImage{
+    margin-top: 0;
+  background-image: url("../assets/images/TrioBanner.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* End of Header */
+
+/* Footer */
+
+.footer{
+    background-color: #EFEFEE;
+}
+.name{
+    font-weight: 700;
+}
+/* End of Footer */
