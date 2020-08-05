@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -85,43 +86,9 @@ h4 {
 
 .recipe {
  background-color: #A3826C;
-}
-
-
-/* about css */
-                
-
-                @media (min-width: 1200px) and (orientation: landscape) {
-                    /* about css */
-                    .HeadingOne {
-                        font-size: 50px;
-                    }
-                    .about {
-                        margin-top: 25vh;
-                        color: white;
-                    }
-                    .aboutImg {
-                        width: 30vw;
-                        height: 70vh;
-                    }
-                    #carouselExampleControls {
-                        margin-top: 10vh;
-                    }
-                }
-
-.AboutTwo {
-    background: #3E3D3D;
-    color: white;
-    
-}
-
-/* End of about css */
-                
-                
+}                
 
 /* contact section*/
-
-
 
 input[type=text],
 select,
@@ -147,10 +114,19 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #a3826c;
 }
-
-
-
-
-
+/* desk   */
+@media (min-width: 1200px) and (orientation: landscape) {
+    /* about css */
+    .HeadingOne {
+        font-size: 40px;
+    }
+    .about {
+        margin-top: 25vh;
+        color: white;
+    }
+    #carouselExampleControls {
+        margin-top: 10vh;
+    }
+}
 
 
