@@ -56,7 +56,6 @@ h4 {
     font-size: 20px;
     font-weight: 200;
     margin-bottom: 5px;
-
 }
 .footer {
     background-color: #EFEFEE;
@@ -69,6 +68,23 @@ h4 {
     font-weight: 700;
 }
 /* End of Footer */
+
+/* Community section (mobile) */
+/* general */
+#community {
+    background-color: #3e3d3d;
+    color: white;
+}
+
+.team {
+    height: 70vh;
+    width: 100vw;
+}
+
+.fullRecipe {
+    font-size: smaller;
+}
+/* End of Community section */
 
 
 /* contact section*/
@@ -94,9 +110,15 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: #a3826c;
+/* Get involved (mobile) */
+.details {
+    border: 5px solid #EDA443;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(146, 219, 146, 0.4);
 }
+/* End of Get involved section */
+
 
 .names{
 position: relative;
@@ -152,6 +174,49 @@ position: relative;
         margin-top: 10vh;
     }
   /* End of About section   */
+  
+    /* Community section (desktop) */
+    .imgDiv {
+        text-align: center;
+    }
+
+    .team {
+        text-align: center;
+        width: 40vw;
+        height: 75vh;
+        margin: 0px 20px;
+    }
+
+    .exit {
+        color: black;
+        float: right;
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+    /* End of Community section */
+
+
+    /* Get involved (desktop) */
+    .subheadings {
+        text-align: center;
+    }
+
+    .details {
+        border: 5px solid #EDA443;
+        margin-right: 15px;
+        margin-left: 25vw;
+        background-color: rgba(146, 219, 146, 0.4);
+        width: 50vw;
+    }
+
+    .Register {
+        border: 5px dotted #5580AA;
+        padding: 10px;
+        margin: 0px 20vw;
+        background-color: rgba(146, 219, 146, 0.4);
+    }
+  /* End of Get involved */
 }
   
 
