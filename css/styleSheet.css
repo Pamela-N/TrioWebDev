@@ -1,3 +1,120 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p,
+a {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Vollkorn', serif;
+}
+
+/* Header */
+.heroText {
+    font-size: 60px;
+    margin-left: 5vw;
+    color: white;
+    position: relative;
+    top: 300px;
+}
+
+.HeroImage{
+    margin-top: 0;
+  background-image: url("../assets/images/TrioBanner.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* End of Header */
+
+/* Footer */
+
+.footerHeading {
+    font-size: 23px;
+    font-weight: 400;
+
+  .footerA {
+    color: #A3826C;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 5px;
+
+}
+.footer {
+    background-color: #EFEFEE;
+}
+
+.icon{
+    margin-left: 12px;
+}
+.name{
+    font-weight: 700;
+}
+/* End of Footer */
+
+/* Community section */
+/* general */
+#community {
+    background-color: #3e3d3d;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+}
+
+.team {
+    height: 70vh;
+    width: 90vw;
+}
+
+.recipe {
+ background-color: #A3826C;
+}                
+
+/* contact section*/
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+   margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
+    
+} 
+
+input[type=submit] {
+    background-color:#a3827c ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #a3826c;
+}
+/* desk   */
 @media (min-width: 1200px) and (orientation: landscape) {
     /* about css */
     .HeadingOne {
@@ -11,3 +128,5 @@
         margin-top: 10vh;
     }
 }
+
+
