@@ -1,12 +1,5 @@
                 /* about css */
                 
-                .AboutTwo {
-                    background: #3E3D3D;
-                    color: white;
-                }
-                
-                .aboutImg {}
-                
                 @media (min-width: 1200px) and (orientation: landscape) {
                     /* about css */
                     .HeadingOne {
@@ -15,9 +8,6 @@
                     .about {
                         margin-top: 25vh;
                         color: white;
-                    }
-                    .HeadingOne {
-                        font-size: 50px;
                     }
                     .aboutImg {
                         width: 30vw;
