@@ -26,8 +26,24 @@ h4 {
 
 /* Footer */
 
+.footerHeading {
+    font-size: 23px;
+    font-weight: 400;
+
+  .footerA {
+    color: #A3826C;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 5px;
+
+}
 .footer {
     background-color: #EFEFEE;
+}
+
+.icon{
+    margin-left: 12px;
 }
 .name{
     font-weight: 700;
@@ -35,16 +51,7 @@ h4 {
 /* End of Footer */
 
 
-/* about css */
 
-.AboutTwo {
-    background: #3E3D3D;
-    color: white;
-    
-}
-
-/* End of about css */
-                
 
 
 /* contact section*/
@@ -104,10 +111,12 @@ position: relative;
     padding: 20px;
 }
 
+
 #lname{
     position: relative;
     margin-left: 20px;
 }
+
 
 
 .row:after {
@@ -116,7 +125,9 @@ position: relative;
     clear: both;
 }
 /* end of contact section */
-                /*about us section*/
+  
+  
+              /*about us section*/
                 @media (min-width: 1200px) and (orientation: landscape) {
                     /* about css */
                     .HeadingOne {
@@ -126,11 +137,9 @@ position: relative;
                         margin-top: 25vh;
                         color: white;
                     }
-                    .aboutImg {
-                        width: 30vw;
-                        height: 70vh;
-                    }
+                    
                     #carouselExampleControls {
                         margin-top: 10vh;
                     }
                 }
+
