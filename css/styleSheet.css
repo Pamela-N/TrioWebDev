@@ -32,7 +32,7 @@ h4 {
 
 .HeroImage {
     margin-top: 0;
-    background-image: url("../assets/images/IMG_20200714_173546\ \(1\).jpg");
+    background-image: url("../assets/images/TrioBanner.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -66,6 +66,7 @@ h4 {
 
 .footer {
     background-color: #EFEFEE;
+    margin-bottom: 10px;
     
 }
 
@@ -306,6 +307,7 @@ input[type=submit] {
         background-color: rgba(146, 219, 146, 0.4);
     }
     /* End of Get involved */
+
     /* Footer */
 
 .footerHeading {
