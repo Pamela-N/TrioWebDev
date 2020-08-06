@@ -32,7 +32,7 @@ h4 {
 
 .HeroImage {
     margin-top: 0;
-    background-image: url("../assets/images/TrioBanner.jpg");
+    background-image: url("../assets/images/IMG_20200714_173546\ \(1\).jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -43,7 +43,6 @@ h4 {
 
 
 /* End of Header */
-
 
 /* Footer */
 
@@ -67,6 +66,7 @@ h4 {
 
 .footer {
     background-color: #EFEFEE;
+    
 }
 
 .icon {
@@ -282,6 +282,12 @@ input[type=submit] {
         margin-right: 50px;
     }
     /* End of Community section */
+
+    /* quote */
+    .quote h1{
+        font-size: 50px;
+    }
+    /* End of Quote */
     /* Get involved (desktop) */
     .subheadings {
         text-align: center;
@@ -300,4 +306,38 @@ input[type=submit] {
         background-color: rgba(146, 219, 146, 0.4);
     }
     /* End of Get involved */
+    /* Footer */
+
+.footerHeading {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.footerA {
+    color: #A3826C;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.footerA:hover {
+    font-size: 25px;
+    color: #3E3D3D;
+}
+
+.footer {
+    background-color: #EFEFEE;
+}
+
+.icon {
+    margin-left: 12px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+
+/* End of Footer */
 }
