@@ -27,7 +27,7 @@ h4 {
     margin-left: 5vw;
     color: white;
     position: relative;
-    top: 300px;
+    top: 285px;
 }
 
 .HeroImage {
@@ -177,6 +177,29 @@ input[type=submit] {
 /* desk   */
 
 @media (min-width: 1200px) and (orientation: landscape) {
+
+    /* Header */
+.heroText {
+    font-size: 60px;
+    margin-left: 5vw;
+    color: white;
+    position: relative;
+    top: 300px;
+}
+
+.HeroImage{
+    margin-top: 0;
+  background-image: url("../assets/images/TrioBanner.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* End of Header */
+
     /* about css */
     .HeadingOne {
         font-size: 80px;
