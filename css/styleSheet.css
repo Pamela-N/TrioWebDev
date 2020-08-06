@@ -59,7 +59,7 @@ button {
 
 
 
-/* about css */
+/* about css mobile */
 
 .BoardImage {
     text-align: center;
@@ -163,7 +163,6 @@ button {
     background-color: rgba(146, 219, 146, 0.4);
 }
 
-
 /* End of Get involved section */
 
 
@@ -190,31 +189,18 @@ input[type=submit] {
 
 .contact {
     position: relative;
-
-    width: 48%;
-    padding: 0px;
-    display: inline-block;
     margin-right: 40px;
     
-
 }
 
 .formdiv{
 
     position: relative;
-    margin-left: 40px;
     margin-top: 50px;
 }
 
 #fname{
     position: relative;
-    margin-left: 20px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
     margin-top: 10px;
 }
 /*end of contact section*/
@@ -245,7 +231,6 @@ input[type=submit] {
     /* about css */
     .HeadingOne {
         font-size: 80px;
-        margin-left: 3vw;
     }
     .about {
         margin-top: 25vh;
@@ -300,20 +285,6 @@ input[type=submit] {
         background-color: #3E3D3D;
         color: white;
         padding: 80px 50px;
-    }
-
-    .details {
-        border: 5px solid #EDA443;
-        margin-right: 15px;
-        margin-left: 25vw;
-        background-color: rgba(146, 219, 146, 0.4);
-        width: 50vw;
-    }
-    .Register {
-        border: 5px dotted #5580AA;
-        padding: 10px;
-        margin: 0px 20vw;
-        background-color: rgba(146, 219, 146, 0.4);
     }
     /* End of Get involved */
 }
@@ -419,6 +390,8 @@ input[type=submit] {
 }
 
 /* end of contact section */
+
+}
 
 }
 
