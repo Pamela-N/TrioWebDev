@@ -21,6 +21,7 @@ h4 {
 
 
 /* Header */
+
 .heroText {
     font-size: 60px;
     margin-left: 5vw;
@@ -29,16 +30,17 @@ h4 {
     top: 285px;
 }
 
-.HeroImage{
+.HeroImage {
     margin-top: 0;
-  background-image: url("../assets/images/TrioBanner.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: url("../assets/images/TrioBanner.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
 
 /* End of Header */
 
@@ -57,20 +59,28 @@ h4 {
     font-weight: 200;
     margin-bottom: 5px;
 }
+
 .footer {
     background-color: #EFEFEE;
 }
 
-.icon{
+.icon {
     margin-left: 12px;
 }
-.name{
+
+.name {
     font-weight: 700;
 }
+
+
 /* End of Footer */
 
+
 /* Community section (mobile) */
+
+
 /* general */
+
 #community {
     background-color: #3e3d3d;
     color: white;
@@ -84,6 +94,8 @@ h4 {
 .fullRecipe {
     font-size: smaller;
 }
+
+
 /* End of Community section */
 
 
@@ -95,51 +107,51 @@ textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.363);
-   margin-top: 6px;
+    margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
     background-color: #f2f2f2;
-    
-} 
+}
 
 input[type=submit] {
-    background-color:#a3827c ;
+    background-color: #a3827c;
     color: white;
     padding: 20px 28px;
     border: none;
     cursor: pointer;
 }
 
+
 /* Get involved (mobile) */
+
 .details {
     border: 5px solid #EDA443;
     padding: 10px;
     margin: 20px;
     background-color: rgba(146, 219, 146, 0.4);
 }
+
+
 /* End of Get involved section */
 
-
-.names{
-position: relative;
+.names {
+    position: relative;
     width: 48%;
     margin-top: 6px;
     padding: 0px;
     display: inline-block;
-
-
 }
+
 .contact {
     border-radius: 5px;
-    
     padding: 1px;
-    
 }
 
-.info{
+.info {
     position: relative;
     margin-left: 40px;
 }
+
 .column {
     float: left;
     width: 48%;
@@ -147,20 +159,23 @@ position: relative;
     padding: 20px;
 }
 
-
-#lname{
+#lname {
     position: relative;
     margin-left: 20px;
 }
-  
-  .row:after {
+
+.row:after {
     content: "";
     display: table;
     clear: both;
 }
+
+
 /* end of contact section */
 
+
 /* desk   */
+
 @media (min-width: 1200px) and (orientation: landscape) {
 
     /* Header */
@@ -187,29 +202,26 @@ position: relative;
 
     /* about css */
     .HeadingOne {
-        font-size: 40px;
+        font-size: 80px;
     }
     .about {
         margin-top: 25vh;
         color: white;
     }
     #carouselExampleControls {
-        margin-top: 10vh;
+        margin-top: 7vh;
     }
-  /* End of About section   */
-  
+    /* End of About section   */
     /* Community section (desktop) */
     .imgDiv {
         text-align: center;
     }
-
     .team {
         text-align: center;
         width: 40vw;
         height: 75vh;
         margin: 0px 20px;
     }
-
     .exit {
         color: black;
         float: right;
@@ -218,13 +230,10 @@ position: relative;
         margin-right: 50px;
     }
     /* End of Community section */
-
-
     /* Get involved (desktop) */
     .subheadings {
         text-align: center;
     }
-
     .details {
         border: 5px solid #EDA443;
         margin-right: 15px;
@@ -232,14 +241,11 @@ position: relative;
         background-color: rgba(146, 219, 146, 0.4);
         width: 50vw;
     }
-
     .Register {
         border: 5px dotted #5580AA;
         padding: 10px;
         margin: 0px 20vw;
         background-color: rgba(146, 219, 146, 0.4);
     }
-  /* End of Get involved */
+    /* End of Get involved */
 }
-  
-
