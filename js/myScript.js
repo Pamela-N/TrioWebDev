@@ -15,6 +15,8 @@ fullRec.addEventListener('click', () => {
     fullRec.style.display = 'none';
 });
 
+// End of Community section
+
 
                          
 const show = document.querySelector('.ReadMore');
