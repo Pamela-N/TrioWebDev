@@ -60,6 +60,11 @@ h4 {
     margin-bottom: 5px;
 }
 
+.footerA:hover {
+    font-size: 25px;
+    color: #3E3D3D;
+}
+
 .footer {
     background-color: #EFEFEE;
 }
@@ -77,6 +82,46 @@ h4 {
 
 
 /* Community section (mobile) */
+
+
+/* general */
+
+#community {
+    background-color: #3e3d3d;
+    color: white;
+}
+
+.team {
+    height: 20vh;
+    width: 50vw;
+}
+
+.fullRecipe {
+    font-size: smaller;
+}
+
+
+/* End of Community section */
+
+
+/* general */
+
+#community {
+    background-color: #3e3d3d;
+    color: white;
+}
+
+.team {
+    height: 20vh;
+    width: 50vw;
+}
+
+.fullRecipe {
+    font-size: smaller;
+}
+
+
+/* End of Community section */
 
 
 /* general */
