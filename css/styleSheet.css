@@ -57,6 +57,28 @@ button {
 
 /* End of Header */
 
+
+
+/* about css */
+
+.BoardImage {
+    text-align: center;
+    width: 70%;
+    height: 60%;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.HeadingOne {
+    font-size: 50px;
+    text-align: center;
+}
+
+.card {
+    height: 60vh;
+}
+
+
 /* Footer */
 
 .footerHeading {
@@ -108,6 +130,7 @@ button {
 }
 
 .team {
+    padding-bottom: 30px;
     height: 40vh;
     width: 50vw;
 }
@@ -119,46 +142,6 @@ button {
 .fullRecipe {
     font-size: smaller;
 }
-
-/* End of Community section */
-
-
-/* general */
-
-#community {
-    background-color: #3e3d3d;
-    color: white;
-}
-
-.team {
-    height: 20vh;
-    width: 50vw;
-}
-
-.fullRecipe {
-    font-size: smaller;
-}
-
-
-/* End of Community section */
-
-
-/* general */
-
-#community {
-    background-color: #3e3d3d;
-    color: white;
-}
-
-.team {
-    height: 40vh;
-    width: 60vw;
-}
-
-.fullRecipe {
-    font-size: smaller;
-}
-
 
 /* End of Community section */
 
@@ -207,18 +190,31 @@ input[type=submit] {
 
 .contact {
     position: relative;
+
+    width: 48%;
+    padding: 0px;
+    display: inline-block;
     margin-right: 40px;
     
+
 }
 
 .formdiv{
 
     position: relative;
+    margin-left: 40px;
     margin-top: 50px;
 }
 
 #fname{
     position: relative;
+    margin-left: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
     margin-top: 10px;
 }
 /*end of contact section*/
@@ -227,29 +223,25 @@ input[type=submit] {
 /* desk   */
 
 @media (min-width: 1200px) and (orientation: landscape) {
-
     /* Header */
-.heroText {
-    font-size: 60px;
-    margin-left: 5vw;
-    color: white;
-    position: relative;
-    top: 300px;
-}
-
-.HeroImage{
-    margin-top: 0;
-  background-image: url("../assets/images/TrioBanner.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* End of Header */
-
+    .heroText {
+        font-size: 60px;
+        margin-left: 5vw;
+        color: white;
+        position: relative;
+        top: 300px;
+    }
+    .HeroImage {
+        margin-top: 0;
+        background-image: url("../assets/images/TrioBanner.jpg");
+        background-color: #cccccc;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    /* End of Header */
     /* about css */
     .HeadingOne {
         font-size: 80px;
@@ -324,6 +316,7 @@ input[type=submit] {
         background-color: rgba(146, 219, 146, 0.4);
     }
     /* End of Get involved */
+}
 
     /* Footer */
 
@@ -428,6 +421,7 @@ input[type=submit] {
 /* end of contact section */
 
 }
+
 
 
 
