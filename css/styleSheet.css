@@ -152,7 +152,7 @@ button {
 
 .team {
     height: 40vh;
-    width: 50vw;
+    width: 60vw;
 }
 
 .fullRecipe {
@@ -170,6 +170,7 @@ button {
     background-color: #3E3D3D;
     color: white;
     padding: 80px 50px;
+    width: 104vw;
 }
 
 .details {
@@ -267,6 +268,7 @@ input[type=submit] {
     /* Community section (desktop) */
     .commHead {
         font-size: 60px;
+        text-align: left;
         margin-left: 5vw;
     }
 
