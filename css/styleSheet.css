@@ -187,7 +187,7 @@ button {
 input[type=text],
 select,
 textarea {
-    width: 100%;
+    width: 120%;
     padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.363);
     margin-top: 6px;
@@ -207,9 +207,22 @@ input[type=submit] {
 .contact {
     position: relative;
     margin-right: 40px;
+    
 }
 
+.formdiv{
+
+    position: relative;
+    margin-top: 50px;
+}
+
+#fname{
+    position: relative;
+    margin-top: 10px;
+}
 /*end of contact section*/
+
+
 /* desk   */
 
 @media (min-width: 1200px) and (orientation: landscape) {
