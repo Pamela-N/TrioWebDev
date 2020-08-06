@@ -229,8 +229,9 @@
         <!-- End of Get Involved Section -->
 
 
-<!--  contact section     -->
-        <div id="Contact" class="container-fluid contact color: white;">
+<!--  contact section -->
+<section class="container-fluid">
+        <div id="Contact" class="container-fluid contact" color: white;">
           
           <div class="row ">
             <div class="column info mt-5 ">
@@ -246,33 +247,38 @@
             </div>
             
             <div class="column ">
-              <form action="/action_page.php ">
+              <form action="/action_page.php "  class="needs-validation" novalidate">
 
 
               <div class="box">
                 <div class="names">
-                    <p><label for="fname">First Name*</label>
+                    <p><label for="fname">First Name</label>
                  <input type="text" id="fname" name="firstname" placeholder=""> </p>
                  </div>
                 <div class="names mt-5">
-                  <p> <label for="lname" id="lname"; > Last Name* </label>
-               <input type="text" id="lname" name="lastname" placeholder="" ></p>
+                  <p> <label for="lname" id="lname"; > Last Name </label>
+               <input type="text"    id="lname" name="lastname" placeholder="" ></p>
                </div>
                                  
             
-           <p><label for="email">Email*</label>
-            <input type="text" id="email" name="email" placeholder=""></p>
-               <p> <label for="subject">Message* </label>
-                <textarea id="subject" name="subject" placeholder="" style="height:120px"></textarea></p>
-                <p><input class="mt-5" type="submit" value="Submit"></p>
+            <p>
+               <label for="validationDefault03">Email*</label>
+               <input type="text"  id="validationDefault03" required name="email" placeholder="">
+            </p>
 
+            <p> 
+               <label for="subject">Message </label>
+               <textarea id="subject" name="subject" placeholder="" style="height:120px"></textarea>
+            </p>
+
+             <a href="Contact"> <p><input class="mt-5" type="submit" value="Submit"></p></a>
             </div>
-              </form>
+            </form>
             </div>
         
           </section>
-  
-  <!-- end of contact section -->
+
+<!-- end of contact section -->
 
 
     <!-- Footer -->
