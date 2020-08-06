@@ -19,6 +19,19 @@ h4 {
     font-family: 'Vollkorn', serif;
 }
 
+h5 {
+    font-family: 'Vollkorn', serif;
+    color: #a3826c;
+}
+
+button {
+    background-color: #a3827c;
+    color: white;
+    padding: 10px 28px;
+    border: none;
+    cursor: pointer;
+}
+
 
 /* Header */
 
@@ -83,8 +96,6 @@ h4 {
 
 
 /* Community section (mobile) */
-
-
 /* general */
 
 #community {
@@ -92,15 +103,22 @@ h4 {
     color: white;
 }
 
+.commHead {
+    text-align: center;
+}
+
 .team {
-    height: 20vh;
+    height: 40vh;
     width: 50vw;
+}
+
+.recipe {
+    margin-left: 80px;
 }
 
 .fullRecipe {
     font-size: smaller;
 }
-
 
 /* End of Community section */
 
@@ -133,7 +151,7 @@ h4 {
 }
 
 .team {
-    height: 20vh;
+    height: 40vh;
     width: 50vw;
 }
 
@@ -148,6 +166,11 @@ h4 {
 
 
 /* Get involved (mobile) */
+.involvedSec {
+    background-color: #3E3D3D;
+    color: white;
+    padding: 80px 50px;
+}
 
 .details {
     border: 5px solid #EDA443;
@@ -160,8 +183,7 @@ h4 {
 /* End of Get involved section */
 
 
-/* contact section*/
-
+/* contact section */
 input[type=text],
 select,
 textarea {
@@ -182,51 +204,12 @@ input[type=submit] {
     cursor: pointer;
 }
 
-.names {
-    position: relative;
-    width: 48%;
-    
-    padding: 0px;
-    display: inline-block;
-}
-
 .contact {
-    border-radius: 5px;
-    padding: 1px;
-}
-
-.info {
     position: relative;
-    margin-left: 40px;
-    margin-top: 500px;
-   
-
+    margin-right: 40px;
 }
 
-.column {
-    float: left;
-    width: 48%;
-    margin-top: 6px;
-    padding: 20px;
-}
-
-#lname {
-    position: relative;
-    margin-left: 20px;
-}
-
-
-.row:after {
-
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* end of contact section */
-
-
+/*end of contact section*/
 /* desk   */
 
 @media (min-width: 1200px) and (orientation: landscape) {
@@ -256,6 +239,7 @@ input[type=submit] {
     /* about css */
     .HeadingOne {
         font-size: 80px;
+        margin-left: 3vw;
     }
     .about {
         margin-top: 25vh;
@@ -265,16 +249,29 @@ input[type=submit] {
         margin-top: 7vh;
     }
     /* End of About section   */
+
+    
     /* Community section (desktop) */
+    .commHead {
+        font-size: 60px;
+        margin-left: 5vw;
+    }
+
     .imgDiv {
         text-align: center;
     }
+
     .team {
         text-align: center;
-        width: 40vw;
-        height: 75vh;
+        width: 30vw;
+        height: 70vh;
         margin: 0px 20px;
     }
+
+    .recipe {
+        margin: 0;
+    }
+
     .exit {
         color: black;
         float: right;
@@ -284,15 +281,20 @@ input[type=submit] {
     }
     /* End of Community section */
 
+
     /* quote */
     .quote h1{
         font-size: 50px;
     }
     /* End of Quote */
+
     /* Get involved (desktop) */
-    .subheadings {
-        text-align: center;
+    .involvedSec {
+        background-color: #3E3D3D;
+        color: white;
+        padding: 80px 50px;
     }
+
     .details {
         border: 5px solid #EDA443;
         margin-right: 15px;
@@ -342,4 +344,76 @@ input[type=submit] {
 
 
 /* End of Footer */
+
+/* contact section*/
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
 }
+input[type=submit] {
+    background-color: #a3827c;
+    color: white;
+    padding: 20px 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.names {
+    position: relative;
+    width: 48%;
+    
+    padding: 0px;
+    display: inline-block;
+}
+
+.contact {
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.info {
+    position: relative;
+    margin-left: 40px;
+
+   
+
+}
+
+.column {
+    float: left;
+    width: 48%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+#lname {
+    position: relative;
+    margin-left: 20px;
+}
+
+
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+.hide-on-mobile{
+    display: none;
+}
+
+/* end of contact section */
+
+}
+
+
+
+
