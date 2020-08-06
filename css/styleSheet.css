@@ -45,7 +45,7 @@ button {
 
 .HeroImage {
     margin-top: 0;
-    background-image: url("../assets/images/TrioBanner.jpg");
+    background-image: url("../assets/images/IMG_20200714_173546\ \(1\).jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -56,7 +56,6 @@ button {
 
 
 /* End of Header */
-
 
 /* Footer */
 
@@ -80,6 +79,7 @@ button {
 
 .footer {
     background-color: #EFEFEE;
+    
 }
 
 .icon {
@@ -182,8 +182,7 @@ button {
 /* End of Get involved section */
 
 
-/* contact section*/
-
+/* contact section */
 input[type=text],
 select,
 textarea {
@@ -204,51 +203,12 @@ input[type=submit] {
     cursor: pointer;
 }
 
-.names {
-    position: relative;
-    width: 48%;
-    
-    padding: 0px;
-    display: inline-block;
-}
-
 .contact {
-    border-radius: 5px;
-    padding: 1px;
-}
-
-.info {
     position: relative;
-    margin-left: 40px;
-    margin-top: 500px;
-   
-
+    margin-right: 40px;
 }
 
-.column {
-    float: left;
-    width: 48%;
-    margin-top: 6px;
-    padding: 20px;
-}
-
-#lname {
-    position: relative;
-    margin-left: 20px;
-}
-
-
-.row:after {
-
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* end of contact section */
-
-
+/*end of contact section*/
 /* desk   */
 
 @media (min-width: 1200px) and (orientation: landscape) {
@@ -321,6 +281,12 @@ input[type=submit] {
     /* End of Community section */
 
 
+    /* quote */
+    .quote h1{
+        font-size: 50px;
+    }
+    /* End of Quote */
+
     /* Get involved (desktop) */
     .involvedSec {
         background-color: #3E3D3D;
@@ -342,4 +308,117 @@ input[type=submit] {
         background-color: rgba(146, 219, 146, 0.4);
     }
     /* End of Get involved */
+
+
+
+
+
+    
+
+    /* Footer */
+
+.footerHeading {
+    font-size: 23px;
+    font-weight: 400;
 }
+
+.footerA {
+    color: #A3826C;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.footerA:hover {
+    font-size: 25px;
+    color: #3E3D3D;
+}
+
+.footer {
+    background-color: #EFEFEE;
+}
+
+.icon {
+    margin-left: 12px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+
+/* End of Footer */
+
+/* contact section*/
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
+}
+input[type=submit] {
+    background-color: #a3827c;
+    color: white;
+    padding: 20px 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.names {
+    position: relative;
+    width: 48%;
+    
+    padding: 0px;
+    display: inline-block;
+}
+
+.contact {
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.info {
+    position: relative;
+    margin-left: 40px;
+    margin-top: 500px;
+   
+
+}
+
+.column {
+    float: left;
+    width: 48%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+#lname {
+    position: relative;
+    margin-left: 20px;
+}
+
+
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+.hide-on-mobile{
+    display: none;
+}
+
+/* end of contact section */
+
+}
+
+
+
+
