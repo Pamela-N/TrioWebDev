@@ -18,6 +18,13 @@ fullRec.addEventListener('click', () => {
 // End of Community section
 
 
+// Get Involved
+const donate = document.querySelector('.donateBtn');
+const volunteer = document.querySelector('.volBtn');
+const sponsor = document.querySelector('.sponsBtn');
+
+
+
                          
 const show = document.querySelector('.ReadMore');
 const butto = document.querySelector('.but');
