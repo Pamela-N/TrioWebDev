@@ -99,6 +99,21 @@ h4 {
 /* End of Community section */
 
 
+
+
+/* Get involved (mobile) */
+
+.details {
+    border: 5px solid #EDA443;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(146, 219, 146, 0.4);
+}
+
+
+/* End of Get involved section */
+
+
 /* contact section*/
 
 input[type=text],
@@ -121,23 +136,10 @@ input[type=submit] {
     cursor: pointer;
 }
 
-
-/* Get involved (mobile) */
-
-.details {
-    border: 5px solid #EDA443;
-    padding: 10px;
-    margin: 20px;
-    background-color: rgba(146, 219, 146, 0.4);
-}
-
-
-/* End of Get involved section */
-
 .names {
     position: relative;
     width: 48%;
-    margin-top: 6px;
+    
     padding: 0px;
     display: inline-block;
 }
@@ -150,6 +152,9 @@ input[type=submit] {
 .info {
     position: relative;
     margin-left: 40px;
+    margin-top: 500px;
+   
+
 }
 
 .column {
@@ -164,7 +169,9 @@ input[type=submit] {
     margin-left: 20px;
 }
 
+
 .row:after {
+
     content: "";
     display: table;
     clear: both;
