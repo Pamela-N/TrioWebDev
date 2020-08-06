@@ -210,11 +210,17 @@
     </div> -->
     <!-- End of Quote -->
 
-<!--  contact section     -->
-        <div class="container-fluid contact"  color: white;">
+
+
+
+
+<!-- contact section -->
+
+<section>       
+     <div class="container-fluid contact" id="Contact"  color: white;">
          
           <div class="row">
-            <div class="column info">
+            <div class="column info mt-5">
               <h1>Contact us</h1>
               <p>Feel free to contact us with any question</p>
               <h4 class="mt-5">Email</h4>
@@ -222,33 +228,32 @@
               <h4 class="mt-5">Phone</h4>
               <p>(000) 123-5844  </p>
              
+            
             </div>
             
             <div class="column">
               <form action="/action_page.php">
 
-
+              <div class="box">
                 <div class="names">
-                <p>Name*</p>
-                <p> <input type="text" id="fname" name="firstname" placeholder=""> </p>
-                <label for="fname"><p>First Name</p></label>
-               </div>
+                    <p><label for="fname">First Name</label>
+                 <input type="text" id="fname" name="firstname" placeholder=""> </p>
+                 </div>
                 <div class="names mt-5">
-                
-               <p><input type="text" id="lname" name="lastname" placeholder=""></p>
-               <label for="lname"> <p>Last Name</p> </label>
-            </div>
+                  <p> <label for="lname" id="lname"; > Last Name </label>
+               <input type="text" id="lname" name="lastname" placeholder="" ></p>
+               </div>
                                  
-            <div class="">
-            <label for="email"> <p>Email*</p> </label>
-            <p><input type="text" id="email" name="email" placeholder=""></p>
-                <label for="subject"><p>Message*</p> </label>
-               <p> <textarea id="subject" name="subject" placeholder="" style="height:120px"></textarea></p>
+            
+           <p><label for="email">Email*</label>
+            <input type="text" id="email" name="email" placeholder=""></p>
+               <p> <label for="subject">Message* </label>
+                <textarea id="subject" name="subject" placeholder="" style="height:120px"></textarea></p>
                 <p><input class="mt-5" type="submit" value="Submit"></p>
             </div>
               </form>
             </div>
-  
+        
           </section>
   
   <!-- end of contact sectcion -->
