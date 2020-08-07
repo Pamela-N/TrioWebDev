@@ -59,13 +59,12 @@ button {
 /* End of Header */
 
 
-
 /* about css mobile */
 
 .BoardImage {
     text-align: center;
     width: 70%;
-    height: 60%;
+    height: 70%;
     margin-left: 80px;
     margin-top: 10px;
 }
@@ -77,48 +76,52 @@ button {
 
 .card {
     height: 60vh;
+    border: none !important;
+    background: #EFEFEE;
 }
+
+.member {
+    background-color: #EFEFEE;
+}
+
+.mission {
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.but {
+    margin-left: 53vw;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+
+/* end of about page */
 
 
 /* Footer */
 
-.footerHeading {
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.footerA {
-    color: #A3826C;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 5px;
-}
-
-.footerA:hover {
-    font-size: 25px;
-    color: #3E3D3D;
-}
-
-.footer {
+   .footer {
     background-color: #EFEFEE;
-    margin-bottom: 10px;
-    
 }
 
 .icon {
     margin-left: 12px;
+    position: relative;
+    left: 13vw;
 }
 
-.name {
-    font-weight: 700;
+.copy{
+    margin-left: 11px;
+    position: relative;
+    left: 35vw;
 }
-
 
 /* End of Footer */
 
-
 /* Community section (mobile) */
+
+
 /* general */
 
 #community {
@@ -172,10 +175,16 @@ button {
 
 /* End of Community section */
 
+/* quote */
 
+.quote h1{
+    font-size: 35px;
+}
 
+/* End of quote */
 
 /* Get involved (mobile) */
+
 .involvedSec {
     background-color: #3E3D3D;
     color: white;
@@ -190,10 +199,12 @@ button {
     background-color: rgba(146, 219, 146, 0.4);
 }
 
+
 /* End of Get involved section */
 
 
 /* contact section */
+
 input[type=text],
 select,
 textarea {
@@ -204,6 +215,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     background-color: #f2f2f2;
+    border-radius: 4px;
 }
 
 input[type=submit] {
@@ -213,31 +225,39 @@ input[type=submit] {
     border: none;
     cursor: pointer;
 }
+label{
+    transform: translateY(1vh); 
 
+}
 .contact {
     position: relative;
     margin-right: 40px;
-    
 }
 
-.formdiv{
-
+.formdiv {
     position: relative;
     margin-top: 50px;
 }
 
-#fname{
+
+/* #fname{
     position: relative;
     margin-top: 10px;
-}
+} */
 /*end of contact section*/
 
 
-/* desk   */
+/* desktop csss  */
 
-@media (min-width: 1200px) and (orientation: landscape) {
-    /* Header */
-    .heroText {
+
+/*end of contact section*/
+
+/* desktop   */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+       /* Header */
+       .heroText {
         font-size: 60px;
         margin-left: 5vw;
         color: white;
@@ -267,8 +287,6 @@ input[type=submit] {
         margin-top: 7vh;
     }
     /* End of About section   */
-
-    
     /* Community section (desktop) */
     .commHead {
         font-size: 50px;
@@ -276,18 +294,15 @@ input[type=submit] {
         margin-left: 5vw;
         padding-top: 25px;
     }
-
     .imgDiv {
         text-align: center;
     }
-
     .team {
         text-align: center;
         width: 40vw;
         height: 90vh;
         margin: 0px 20px;
     }
-
     .recipe {
         margin: 0;
     }
@@ -320,14 +335,16 @@ input[type=submit] {
         margin-right: 50px;
     }
     /* End of Community section */
-
-
     /* quote */
-    .quote h1{
+    .quote h1 {
         font-size: 50px;
     }
-    /* End of Quote */
 
+    .quote{
+        margin-left: 20vw;
+    }
+
+    /* End of Quote */
     /* Get involved (desktop) */
     .involvedSec {
         background-color: #3E3D3D;
@@ -337,25 +354,8 @@ input[type=submit] {
     /* End of Get involved */
 
 
-    /* Footer */
 
-.footerHeading {
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.footerA {
-    color: #A3826C;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 5px;
-}
-
-.footerA:hover {
-    font-size: 25px;
-    color: #3E3D3D;
-}
+/* Footer */
 
 .footer {
     background-color: #EFEFEE;
@@ -363,14 +363,18 @@ input[type=submit] {
 
 .icon {
     margin-left: 12px;
+    position: relative;
+    left: 22vw;
 }
 
-.name {
-    font-weight: 700;
+.copy{
+    margin-left: 11px;
+    position: relative;
+    left: 46vw;
 }
-
 
 /* End of Footer */
+
 
 /* contact section*/
 
@@ -384,7 +388,9 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     background-color: #f2f2f2;
+    border-radius: 4px;
 }
+
 input[type=submit] {
     background-color: #a3827c;
     color: white;
@@ -393,11 +399,18 @@ input[type=submit] {
     cursor: pointer;
 }
 
+label{
+     transform: translateY(1vh); 
+
+}
+
 .names {
     position: relative;
     width: 48%;
+    margin-bottom: 2vh;
     padding: 0px;
     display: inline-block;
+    
 }
 
 .contact {
@@ -408,7 +421,8 @@ input[type=submit] {
 .info {
     position: relative;
     margin-left: 40px;
-}
+  }
+
 
 .column {
     float: left;
@@ -422,24 +436,16 @@ input[type=submit] {
     margin-left: 20px;
 }
 
-
 .row:after {
-
     content: "";
     display: table;
     clear: both;
 }
-.hide-on-mobile{
-    display: none;
-}
+
+
 
 /* end of contact section */
 
 }
 
-
-
-
-
-
-
+}
