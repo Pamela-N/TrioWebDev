@@ -46,38 +46,14 @@ h4 {
 
 /* Footer */
 
-.footerHeading {
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.footerA {
-    color: #A3826C;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 5px;
-}
-
-.footerA:hover {
-    font-size: 25px;
-    color: #3E3D3D;
-}
-
 .footer {
-    background-color: #EFEFEE;
-    margin-bottom: 10px;
-    
+    background-color: #EFEFEE; 
+    height: 10vh; 
 }
 
 .icon {
     margin-left: 12px;
 }
-
-.name {
-    font-weight: 700;
-}
-
 
 /* End of Footer */
 
@@ -227,7 +203,7 @@ input[type=submit] {
 /* end of contact section */
 
 
-/* desk   */
+/* desktop   */
 
 @media (min-width: 1200px) and (orientation: landscape) {
 
@@ -265,6 +241,7 @@ input[type=submit] {
         margin-top: 7vh;
     }
     /* End of About section   */
+
     /* Community section (desktop) */
     .imgDiv {
         text-align: center;
@@ -289,6 +266,7 @@ input[type=submit] {
         font-size: 50px;
     }
     /* End of Quote */
+
     /* Get involved (desktop) */
     .subheadings {
         text-align: center;
@@ -310,34 +288,14 @@ input[type=submit] {
 
     /* Footer */
 
-.footerHeading {
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.footerA {
-    color: #A3826C;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 5px;
-}
-
-.footerA:hover {
-    font-size: 25px;
-    color: #3E3D3D;
-}
 
 .footer {
     background-color: #EFEFEE;
+    height: 10vh;
 }
 
 .icon {
     margin-left: 12px;
-}
-
-.name {
-    font-weight: 700;
 }
 
 
