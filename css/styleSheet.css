@@ -193,6 +193,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     background-color: #f2f2f2;
+    border-radius: 4px;
 }
 
 input[type=submit] {
@@ -202,7 +203,10 @@ input[type=submit] {
     border: none;
     cursor: pointer;
 }
+label{
+    transform: translateY(1vh); 
 
+}
 .contact {
     position: relative;
     margin-right: 40px;
@@ -215,17 +219,18 @@ input[type=submit] {
     margin-top: 50px;
 }
 
-#fname{
+/* #fname{
     position: relative;
     margin-top: 10px;
-}
+} */
 /*end of contact section*/
 
 
-/* desk   */
+/* desktop csss  */
 
 @media (min-width: 1200px) and (orientation: landscape) {
 
+ 
     /* Header */
 .heroText {
     font-size: 60px;
@@ -375,6 +380,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     background-color: #f2f2f2;
+    border-radius: 4px;
 }
 input[type=submit] {
     background-color: #a3827c;
@@ -384,12 +390,18 @@ input[type=submit] {
     cursor: pointer;
 }
 
+label{
+     transform: translateY(1vh); 
+
+}
+
 .names {
     position: relative;
     width: 48%;
-    
+    margin-bottom: 2vh;
     padding: 0px;
     display: inline-block;
+    
 }
 
 .contact {
@@ -424,9 +436,7 @@ input[type=submit] {
     display: table;
     clear: both;
 }
-.hide-on-mobile{
-    display: none;
-}
+
 
 /* end of contact section */
 
