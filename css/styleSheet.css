@@ -30,6 +30,7 @@ button {
     padding: 10px 28px;
     border: none;
     cursor: pointer;
+    border-radius: 50px;
 }
 
 
@@ -130,6 +131,7 @@ button {
 
 .commHead {
     text-align: center;
+    padding-top: 20px;
 }
 
 .team {
@@ -139,11 +141,36 @@ button {
 }
 
 .recipe {
-    margin-left: 80px;
+    margin-left: 120px;
+    border-radius: 5px;
 }
 
 .fullRecipe {
     font-size: smaller;
+}
+
+.exit1 {
+    color: black;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.exit2 {
+    color: black;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.exit3 {
+    color: black;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
 }
 
 /* End of Community section */
@@ -262,23 +289,45 @@ label{
     /* End of About section   */
     /* Community section (desktop) */
     .commHead {
-        font-size: 60px;
+        font-size: 50px;
         text-align: left;
         margin-left: 5vw;
+        padding-top: 25px;
     }
     .imgDiv {
         text-align: center;
     }
     .team {
         text-align: center;
-        width: 30vw;
-        height: 70vh;
+        width: 40vw;
+        height: 90vh;
         margin: 0px 20px;
     }
     .recipe {
         margin: 0;
     }
-    .exit {
+
+    .recDescr {
+        padding-right: 30px;
+    }
+
+    .exit1 {
+        color: black;
+        float: right;
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+
+    .exit2 {
+        color: black;
+        float: right;
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+
+    .exit3 {
         color: black;
         float: right;
         font-size: 25px;
@@ -303,6 +352,7 @@ label{
         padding: 80px 50px;
     }
     /* End of Get involved */
+
 
 
 /* Footer */
@@ -370,8 +420,9 @@ label{
 
 .info {
     position: relative;
-    margin-left: 40px; 
-}
+    margin-left: 40px;
+  }
+
 
 .column {
     float: left;
