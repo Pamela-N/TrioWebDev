@@ -118,7 +118,6 @@ button {
 
 /* End of Footer */
 
-
 /* Community section (mobile) */
 
 
@@ -147,9 +146,15 @@ button {
     font-size: smaller;
 }
 
-
 /* End of Community section */
 
+/* quote */
+
+.quote h1{
+    font-size: 35px;
+}
+
+/* End of quote */
 
 /* Get involved (mobile) */
 
@@ -277,6 +282,11 @@ input[type=submit] {
     .quote h1 {
         font-size: 50px;
     }
+
+    .quote{
+        margin-left: 20vw;
+    }
+
     /* End of Quote */
     /* Get involved (desktop) */
     .involvedSec {
