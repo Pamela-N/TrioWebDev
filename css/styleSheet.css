@@ -45,7 +45,7 @@ button {
 
 .HeroImage {
     margin-top: 0;
-    background-image: url("../assets/images/IMG_20200714_173546\ \(1\).jpg");
+    background-image: url("../assets/images/TrioBanner.jpg");
     background-color: #cccccc;
     height: 500px;
     background-position: center;
@@ -57,44 +57,70 @@ button {
 
 /* End of Header */
 
+
+/* about css mobile */
+
+.BoardImage {
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.HeadingOne {
+    font-size: 50px;
+    text-align: center;
+}
+
+.card {
+    height: 60vh;
+    border: none !important;
+    background: #EFEFEE;
+}
+
+.member {
+    background-color: #EFEFEE;
+}
+
+.mission {
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.but {
+    margin-left: 53vw;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+
+/* end of about page */
+
+
 /* Footer */
 
-.footerHeading {
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.footerA {
-    color: #A3826C;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 5px;
-}
-
-.footerA:hover {
-    font-size: 25px;
-    color: #3E3D3D;
-}
-
-.footer {
+   .footer {
     background-color: #EFEFEE;
-    
 }
 
 .icon {
     margin-left: 12px;
+    position: relative;
+    left: 13vw;
 }
 
-.name {
-    font-weight: 700;
+.copy{
+    margin-left: 11px;
+    position: relative;
+    left: 35vw;
 }
-
 
 /* End of Footer */
 
-
 /* Community section (mobile) */
+
+
 /* general */
 
 #community {
@@ -107,6 +133,7 @@ button {
 }
 
 .team {
+    padding-bottom: 30px;
     height: 40vh;
     width: 50vw;
 }
@@ -121,54 +148,21 @@ button {
 
 /* End of Community section */
 
+/* quote */
 
-/* general */
-
-#community {
-    background-color: #3e3d3d;
-    color: white;
+.quote h1{
+    font-size: 35px;
 }
 
-.team {
-    height: 20vh;
-    width: 50vw;
-}
-
-.fullRecipe {
-    font-size: smaller;
-}
-
-
-/* End of Community section */
-
-
-/* general */
-
-#community {
-    background-color: #3e3d3d;
-    color: white;
-}
-
-.team {
-    height: 40vh;
-    width: 50vw;
-}
-
-.fullRecipe {
-    font-size: smaller;
-}
-
-
-/* End of Community section */
-
-
-
+/* End of quote */
 
 /* Get involved (mobile) */
+
 .involvedSec {
     background-color: #3E3D3D;
     color: white;
     padding: 80px 50px;
+    width: 104vw;
 }
 
 .details {
@@ -183,6 +177,7 @@ button {
 
 
 /* contact section */
+
 input[type=text],
 select,
 textarea {
@@ -210,14 +205,13 @@ label{
 .contact {
     position: relative;
     margin-right: 40px;
-    
 }
 
-.formdiv{
-
+.formdiv {
     position: relative;
     margin-top: 50px;
 }
+
 
 /* #fname{
     position: relative;
@@ -228,35 +222,35 @@ label{
 
 /* desktop csss  */
 
-@media (min-width: 1200px) and (orientation: landscape) {
 
- 
-    /* Header */
-.heroText {
-    font-size: 60px;
-    margin-left: 5vw;
-    color: white;
-    position: relative;
-    top: 300px;
-}
+/*end of contact section*/
 
-.HeroImage{
-    margin-top: 0;
-  background-image: url("../assets/images/TrioBanner.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+/* desktop   */
 
-/* End of Header */
-
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+       /* Header */
+       .heroText {
+        font-size: 60px;
+        margin-left: 5vw;
+        color: white;
+        position: relative;
+        top: 300px;
+    }
+    .HeroImage {
+        margin-top: 0;
+        background-image: url("../assets/images/TrioBanner.jpg");
+        background-color: #cccccc;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    /* End of Header */
     /* about css */
     .HeadingOne {
         font-size: 80px;
-        margin-left: 3vw;
     }
     .about {
         margin-top: 25vh;
@@ -266,29 +260,24 @@ label{
         margin-top: 7vh;
     }
     /* End of About section   */
-
-    
     /* Community section (desktop) */
     .commHead {
         font-size: 60px;
+        text-align: left;
         margin-left: 5vw;
     }
-
     .imgDiv {
         text-align: center;
     }
-
     .team {
         text-align: center;
         width: 30vw;
         height: 70vh;
         margin: 0px 20px;
     }
-
     .recipe {
         margin: 0;
     }
-
     .exit {
         color: black;
         float: right;
@@ -297,61 +286,26 @@ label{
         margin-right: 50px;
     }
     /* End of Community section */
-
-
     /* quote */
-    .quote h1{
+    .quote h1 {
         font-size: 50px;
     }
-    /* End of Quote */
 
+    .quote{
+        margin-left: 20vw;
+    }
+
+    /* End of Quote */
     /* Get involved (desktop) */
     .involvedSec {
         background-color: #3E3D3D;
         color: white;
         padding: 80px 50px;
     }
-
-    .details {
-        border: 5px solid #EDA443;
-        margin-right: 15px;
-        margin-left: 25vw;
-        background-color: rgba(146, 219, 146, 0.4);
-        width: 50vw;
-    }
-    .Register {
-        border: 5px dotted #5580AA;
-        padding: 10px;
-        margin: 0px 20vw;
-        background-color: rgba(146, 219, 146, 0.4);
-    }
     /* End of Get involved */
 
 
-
-
-
-    
-
-    /* Footer */
-
-.footerHeading {
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.footerA {
-    color: #A3826C;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 5px;
-}
-
-.footerA:hover {
-    font-size: 25px;
-    color: #3E3D3D;
-}
+/* Footer */
 
 .footer {
     background-color: #EFEFEE;
@@ -359,14 +313,18 @@ label{
 
 .icon {
     margin-left: 12px;
+    position: relative;
+    left: 22vw;
 }
 
-.name {
-    font-weight: 700;
+.copy{
+    margin-left: 11px;
+    position: relative;
+    left: 46vw;
 }
-
 
 /* End of Footer */
+
 
 /* contact section*/
 
@@ -382,6 +340,7 @@ textarea {
     background-color: #f2f2f2;
     border-radius: 4px;
 }
+
 input[type=submit] {
     background-color: #a3827c;
     color: white;
@@ -411,10 +370,7 @@ label{
 
 .info {
     position: relative;
-    margin-left: 40px;
-
-   
-
+    margin-left: 40px; 
 }
 
 .column {
@@ -429,19 +385,16 @@ label{
     margin-left: 20px;
 }
 
-
 .row:after {
-
     content: "";
     display: table;
     clear: both;
 }
 
 
+
 /* end of contact section */
 
 }
 
-
-
-
+}
