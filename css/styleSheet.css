@@ -58,13 +58,12 @@ button {
 /* End of Header */
 
 
-
 /* about css mobile */
 
 .BoardImage {
     text-align: center;
     width: 70%;
-    height: 60%;
+    height: 70%;
     margin-left: 80px;
     margin-top: 10px;
 }
@@ -76,7 +75,27 @@ button {
 
 .card {
     height: 60vh;
+    border: none !important;
+    background: #EFEFEE;
 }
+
+.member {
+    background-color: #EFEFEE;
+}
+
+.mission {
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.but {
+    margin-left: 53vw;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+
+/* end of about page */
 
 
 /* Footer */
@@ -102,7 +121,6 @@ button {
 .footer {
     background-color: #EFEFEE;
     margin-bottom: 10px;
-    
 }
 
 .icon {
@@ -118,6 +136,8 @@ button {
 
 
 /* Community section (mobile) */
+
+
 /* general */
 
 #community {
@@ -143,12 +163,12 @@ button {
     font-size: smaller;
 }
 
+
 /* End of Community section */
 
 
-
-
 /* Get involved (mobile) */
+
 .involvedSec {
     background-color: #3E3D3D;
     color: white;
@@ -163,10 +183,12 @@ button {
     background-color: rgba(146, 219, 146, 0.4);
 }
 
+
 /* End of Get involved section */
 
 
 /* contact section */
+
 input[type=text],
 select,
 textarea {
@@ -190,19 +212,19 @@ input[type=submit] {
 .contact {
     position: relative;
     margin-right: 40px;
-    
 }
 
-.formdiv{
-
+.formdiv {
     position: relative;
     margin-top: 50px;
 }
 
-#fname{
+#fname {
     position: relative;
     margin-top: 10px;
 }
+
+
 /*end of contact section*/
 
 
@@ -240,30 +262,24 @@ input[type=submit] {
         margin-top: 7vh;
     }
     /* End of About section   */
-
-    
     /* Community section (desktop) */
     .commHead {
         font-size: 60px;
         text-align: left;
         margin-left: 5vw;
     }
-
     .imgDiv {
         text-align: center;
     }
-
     .team {
         text-align: center;
         width: 30vw;
         height: 70vh;
         margin: 0px 20px;
     }
-
     .recipe {
         margin: 0;
     }
-
     .exit {
         color: black;
         float: right;
@@ -272,14 +288,11 @@ input[type=submit] {
         margin-right: 50px;
     }
     /* End of Community section */
-
-
     /* quote */
-    .quote h1{
+    .quote h1 {
         font-size: 50px;
     }
     /* End of Quote */
-
     /* Get involved (desktop) */
     .involvedSec {
         background-color: #3E3D3D;
@@ -289,7 +302,8 @@ input[type=submit] {
     /* End of Get involved */
 }
 
-    /* Footer */
+
+/* Footer */
 
 .footerHeading {
     font-size: 23px;
@@ -324,6 +338,7 @@ input[type=submit] {
 
 /* End of Footer */
 
+
 /* contact section*/
 
 input[type=text],
@@ -337,6 +352,7 @@ textarea {
     resize: vertical;
     background-color: #f2f2f2;
 }
+
 input[type=submit] {
     background-color: #a3827c;
     color: white;
@@ -348,7 +364,6 @@ input[type=submit] {
 .names {
     position: relative;
     width: 48%;
-    
     padding: 0px;
     display: inline-block;
 }
@@ -361,9 +376,6 @@ input[type=submit] {
 .info {
     position: relative;
     margin-left: 40px;
-
-   
-
 }
 
 .column {
@@ -378,24 +390,20 @@ input[type=submit] {
     margin-left: 20px;
 }
 
-
 .row:after {
-
     content: "";
     display: table;
     clear: both;
 }
-.hide-on-mobile{
+
+.hide-on-mobile {
     display: none;
 }
 
+
 /* end of contact section */
 
-}
 
 }
 
-
-
-
-
+}
