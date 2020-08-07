@@ -100,37 +100,21 @@ button {
 
 /* Footer */
 
-.footerHeading {
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.footerA {
-    color: #A3826C;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 5px;
-}
-
-.footerA:hover {
-    font-size: 25px;
-    color: #3E3D3D;
-}
-
-.footer {
+   .footer {
     background-color: #EFEFEE;
-    margin-bottom: 10px;
 }
 
 .icon {
     margin-left: 12px;
+    position: relative;
+    left: 13vw;
 }
 
-.name {
-    font-weight: 700;
+.copy{
+    margin-left: 11px;
+    position: relative;
+    left: 35vw;
 }
-
 
 /* End of Footer */
 
@@ -228,11 +212,12 @@ input[type=submit] {
 /*end of contact section*/
 
 
-/* desk   */
+/* desktop   */
 
-@media (min-width: 1200px) and (orientation: landscape) {
-    /* Header */
-    .heroText {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+       /* Header */
+       .heroText {
         font-size: 60px;
         margin-left: 5vw;
         color: white;
@@ -300,28 +285,9 @@ input[type=submit] {
         padding: 80px 50px;
     }
     /* End of Get involved */
-}
 
 
 /* Footer */
-
-.footerHeading {
-    font-size: 23px;
-    font-weight: 400;
-}
-
-.footerA {
-    color: #A3826C;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 5px;
-}
-
-.footerA:hover {
-    font-size: 25px;
-    color: #3E3D3D;
-}
 
 .footer {
     background-color: #EFEFEE;
@@ -329,12 +295,15 @@ input[type=submit] {
 
 .icon {
     margin-left: 12px;
+    position: relative;
+    left: 22vw;
 }
 
-.name {
-    font-weight: 700;
+.copy{
+    margin-left: 11px;
+    position: relative;
+    left: 46vw;
 }
-
 
 /* End of Footer */
 
@@ -375,7 +344,7 @@ input[type=submit] {
 
 .info {
     position: relative;
-    margin-left: 40px;
+    margin-left: 40px; 
 }
 
 .column {
@@ -396,13 +365,12 @@ input[type=submit] {
     clear: both;
 }
 
-.hide-on-mobile {
+.hide-on-mobile{
     display: none;
 }
 
 
 /* end of contact section */
-
 
 }
 
