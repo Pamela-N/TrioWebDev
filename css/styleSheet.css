@@ -231,7 +231,7 @@ textarea {
 input[type=submit] {
     background-color: #a3827c;
     color: white;
-    padding: 20px 28px;
+    padding: 10px 28px;
     border: none;
     cursor: pointer;
     border-radius: ;
@@ -363,6 +363,7 @@ label {
         padding: 80px 50px;
     }
     /* End of Get involved */
+
     /* Footer */
     .footer {
         background-color: #EFEFEE;
