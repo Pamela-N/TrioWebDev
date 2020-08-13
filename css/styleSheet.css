@@ -221,7 +221,7 @@ textarea {
 input[type=submit] {
     background-color: #a3827c;
     color: white;
-    padding: 20px 28px;
+    padding: 10px 28px;
     border: none;
     cursor: pointer;
 }
@@ -394,7 +394,7 @@ textarea {
 input[type=submit] {
     background-color: #a3827c;
     color: white;
-    padding: 20px 28px;
+    padding: 10px 28px;
     border: none;
     cursor: pointer;
 }
@@ -448,4 +448,3 @@ label{
 
 }
 
-}
