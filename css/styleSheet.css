@@ -212,14 +212,45 @@ button {
 }
 
 .details {
-    border: 5px solid #EDA443;
-    padding: 10px;
-    margin: 20px;
-    background-color: rgba(146, 219, 146, 0.4);
+   text-align: center;
+   background-color: #3E3D3D;
+   padding: 50px 0px;
+   color: white;
+}
+/* End of Get involved section */
+
+
+/* Banking details pop-up */
+.details {
+    padding: 20px 20px;
 }
 
+.closeBank {
+    margin-left: 90%;
+    /* margin-bottom: 50%; */
+    font-size: 20px;
+    font-weight: bold;
+}
+/* End of Banking details pop-up */
 
-/* End of Get involved section */
+
+/* Volunteer Register form (desktop) */
+.register {
+    padding: 30px 30px;
+    background-color: #3E3D3D;
+    color: white;
+}
+
+.regSubmit {
+    border-radius: 4px;
+}
+
+.closeVol {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* End of Volunteer Register form */
 
 
 /* contact section */
@@ -227,7 +258,7 @@ button {
 input[type=text],
 select,
 textarea {
-    width: 120%;
+    width: 100%;
     padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.363);
     margin-top: 6px;
@@ -247,13 +278,7 @@ input[type=submit] {
     width: 180px;
     height: 60px;
     font-size: 1.3em;
-    
-    
-   
-
-
-
-
+}
 
 label {
     transform: translateY(1vh);
@@ -310,6 +335,8 @@ label {
         position: relative;
     }
     /* End of Header */
+
+
     /* about css */
     .HeadingOne {
         font-size: 80px;
@@ -322,6 +349,8 @@ label {
         margin-top: 7vh;
     }
     /* End of About section   */
+
+
     /* Community section (desktop) */
     .commHead {
         font-size: 50px;
@@ -366,6 +395,8 @@ label {
         margin-right: 50px;
     }
     /* End of Community section */
+
+
     /* quote */
     .quote h1 {
         font-size: 50px;
@@ -374,13 +405,91 @@ label {
         margin-left: 20vw;
     }
     /* End of Quote */
+
+
     /* Get involved (desktop) */
     .involvedSec {
         background-color: #3E3D3D;
         color: white;
         padding: 80px 50px;
     }
+
+    .donateBtn {
+        border-radius: 4px;
+    }
+
+    .volBtn {
+        border-radius: 4px;
+    }
+
+    .sponsBtn {
+        border-radius: 4px;
+    }
     /* End of Get involved */
+
+
+    /* Banking details pop-up */
+    .closeBank {
+        margin-left: 70%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    /* End of Banking details pop-up */
+
+
+    /* Volunteer Register form (desktop) */
+    .register {
+        padding: 50px 100px;
+        background-color: #3E3D3D;
+        color: white;
+    }
+
+    .regSubmit {
+        border-radius: 4px;
+    }
+
+    .closeVol {
+        float: right;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    /* End of Volunteer Register form */
+
+
+    /* Sponsors & Partners pop-up */
+    .sponsors {
+        padding: 50px 10px;
+    }
+
+    .closeSpons {
+        float: right;
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+
+    .logos {
+        margin: 30px;
+    }
+
+    .trioLogo {
+        width: 15%;
+    }
+
+    .imanLogo {
+        width: 35%;
+    }
+    
+    .safepadLogo {
+        width: 12%;
+        margin-bottom: 50px;
+    }
+
+    .simplifiedLogo {
+        width: 10%;
+    }
+    /* End of Sponsors & Partners pop-up */
+
 
     /* Footer */
 
@@ -482,6 +591,8 @@ input[type=submit] {
         left: 46vw;
     }
     /* End of Footer */
+
+
     /* contact section*/
     input[type=text],
     select,

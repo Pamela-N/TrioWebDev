@@ -166,10 +166,8 @@
     <section id="Community">
         <div id="" class="container-fluid">
             <div class="row">
-
                 <div class="col-lg-12">
                     <h1 class="commHead">Our Community</h1>
-                    <!-- <p>The Ingelosi Foundation aims to create meaningful opportunities for empowerment through our four project areas: The Parks/Inner City CAN, Ingelosi Outreach, Ingelosi House and Angel Wings</p> -->
                 </div>
             </div>
 
@@ -233,7 +231,7 @@
                             <div class="col-lg-7 text-center align-items-end">
                                 <img class="team" src="assets/images/97305596_2592671007668979_3426483509559033856_n.jpg" alt="Angel wings donate box">
                             </div>
-                            < <div class="col-lg-5 recDescr">
+                            <div class="col-lg-5 recDescr">
                                 <p>This is a very indulgent sweet treat, but the cool thing is that it lasts two weeks if kept covered, at room temperature.</p>
                                 <div class="">
                                     <a href="#churro" class="recipe churr stretched-link" style="font-size: 20px; color: #a3827c;">Read More</a>
@@ -250,17 +248,18 @@
                                         a 7cm strip of dough into the hot oil. Repeat, frying 3 or 4 strips at a time. Fry the churros, turning them once, until golden brown, about 2 minutes per side. <br> 6. Transfer the cooked churros to a plate with
                                         paper towels to drain. <br> 7. When the churros are just cool enough to handle, roll them in the cinnamon-sugar.</p>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
     </section>
 
     <!-- End of Community Section -->
 
-    <!-- Qoute -->
+
+    <!-- Quote -->
     <div class="row m-0">
         <div class="col-xl-6 col-sm-12 quote text-centre p-5">
             <h1>“Remember that the happiest people are not those getting more, but those giving more.”</h1>
@@ -302,36 +301,55 @@
 
     <!-- End of Get Involved Section -->
 
-    <!--  Volunteer Reg Form -->
 
-    <form class="register mb-5">
-        <span class="close">&times;</span>
+    <!-- Banking Details Pop up -->
+
+    <div class="details justify-content-center mb-5">
+        <span class="closeBank">&times;</span>
+        <h1>Banking Details</h1>
+        <br>
+        <p>Here's our banking details<br />Kindly use your name and contact number as the reference, <br> Any amount will be highly appreciated.</p>
+        <br>
+        <p class="banking"><br> TRIO TTT <br> Bank Name: FNB <br> Account Number: 62702649560</p>
+    </div>
+
+    <!-- End of Banking Details PopUp -->
+
+
+    <!--  Volunteer Register Form -->
+
+    <form class="register">
+        <span class="closeVol" style="color: white;">&times;</span>
         <h1>Register To Volunteer!</h1>
         <br><br>
         <div class="form-row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="First name">
+            <div class="col-sm-12">
+                <label for="inputFirstName">First name</label>
+                <input type="text" class="form-control" placeholder="Your Name...">
             </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Last name">
+            <div class="col-sm-12">
+                <label for="inputLastName">Last Name</label>
+                <input type="text" class="form-control" placeholder="Your Last Name...">
             </div>
             <br><br>
         </div>
         <div class="form-row">
-            <div class="col">
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            <div class="col-sm-12">
+                <label for="inputEmail">Email</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
             </div>
-            <div class="col">
-                <input class="form-control" type="tel" value="+27123456789" id="example-tel-input">
+            <div class="col-sm-12">
+                <label for="inputCellphoneNumber">Cellphone Number</label>
+                <input class="form-control" type="text" value="+27123456789" id="example-tel-input">
             </div>
         </div>
         <br>
         <div class="form-row">
-            <div class="col">
+            <div class="col-sm-12">
                 <label for="inputAddress">Address</label>
                 <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
             </div>
-            <div class="col">
+            <div class="col-sm-12">
                 <label for="inputAddress2">Address 2</label>
                 <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
             </div>
@@ -343,7 +361,7 @@
                 <input type="text" class="form-control" id="inputCity">
             </div>
             <div class="form-group col-md-4">
-                <label for="inputState">Province</label>
+                <label for="inputState" style="margin-bottom: 15px;">Province</label>
                 <select id="inputState" class="form-control">
 
               <option selected>Choose...</option>
@@ -364,10 +382,26 @@
             </div>
         </div>
 
-        <button type="submit">Submit</button>
+        <button type="submit" class="regSubmit">Submit</button>
     </form>
 
     <!-- End of Volunteer Reg Form -->
+
+
+    <!-- Sponsors & Partners pop-up -->
+    <div class="row sponsors">
+        <div class="col-12 col-xl-12 text-center">
+            <span class="closeSpons">&times;</span>
+            <h1>Our Sponsors & Partners</h1>
+        </div>
+        <div class="col-12 col-xl-12 text-center">
+            <img src="assets/images/CaptureLogo.PNG" class="trioLogo logos" alt="Trio Logo">
+            <img src="assets/images/Partner Logos-20200824T124910Z-001/Partner Logos/safepadLogo.jpg" class="safepadLogo logos" alt="Safepad Logo">
+            <img src="assets/images/Partner Logos-20200824T124910Z-001/Partner Logos/simplifiedItServices.png" class="simplifiedLogo logos" alt="Simplified IT Services">
+            <img src="assets/images/Partner Logos-20200824T124910Z-001/Partner Logos/Iman logo (1).png" class="imanLogo logos" alt="Iman Logo">
+        </div>
+    </div>
+    <!-- End of Sponsors & Partners pop-up -->
 
 
     <!--  contact section -->
@@ -388,25 +422,23 @@
             </div>
             
             <div class="column formdiv ">
-              <form action="/action_page.php "  class="needs-validation " novalidate">
+              <form action="/action_page.php "  class="needs-validation " novalidate>
+                <div>
+                    <div class="names ">
+                        <p><label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your Name..."> </p>
+                    </div>
+                    <div class="names mt-5">
+                        <p> <label for="lname" id="lname" ;> Last Name </label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your Surname..."></p>
+                    </div>
 
 
+                    <p>
+                        <label for="validationDefault03">Email*</label>
+                        <input type="text" id="validationDefault03" required name="email" placeholder="Email Address...">
+                    </p>
 
-            <div>
-                <div class="names ">
-                    <p><label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your Name..."> </p>
-                </div>
-                <div class="names mt-5">
-                    <p> <label for="lname" id="lname" ;> Last Name </label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your Surname..."></p>
-                </div>
-
-
-                <p>
-                    <label for="validationDefault03">Email*</label>
-                    <input type="text" id="validationDefault03" required name="email" placeholder="Email Address...">
-                </p>
 
                 <p>
                     <label for="subject">Message </label>
@@ -419,9 +451,9 @@
               
             
             </div>
+
             </form>
         </div>
-
     </section>
 
     <!-- end of contact section -->
