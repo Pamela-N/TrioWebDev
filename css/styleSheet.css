@@ -67,6 +67,7 @@ button {
     height: 70%;
     margin-left: 80px;
     margin-top: 10px;
+    border-radius: 15px;
 }
 
 .HeadingOne {
@@ -84,6 +85,10 @@ button {
     background-color: #EFEFEE;
 }
 
+.member h1 {
+    color: #A3826C;
+}
+
 .mission {
     margin-left: 5px;
 }
@@ -93,6 +98,8 @@ button {
     margin-top: 0;
     margin-bottom: 80px;
     border-radius: 4px;
+    width: 200px;
+    height: 50px;
 }
 
 .head {
@@ -116,9 +123,11 @@ button {
 }
 
 .copy {
-    margin-left: 11px;
+    width: 100px;
+    padding: 0;
     position: relative;
-    left: 35vw;
+    left: 130px;
+    margin: 0;
 }
 
 
@@ -260,11 +269,15 @@ textarea {
 }
 
 input[type=submit] {
+    position: relative;
     background-color: #a3827c;
     color: white;
-    padding: 10px 28px;
-    border: none;
-    cursor: pointer;
+    border-radius:4px ;
+    text-align: center;
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    font-size: 1.3em;
 }
 
 label {
@@ -479,6 +492,91 @@ label {
 
 
     /* Footer */
+
+.footer {
+    background-color: #EFEFEE;
+}
+
+.icon {
+    margin-left: 12px;
+    position: relative;
+    left: 22vw;
+}
+
+.copy{
+   
+    width: 100px;
+    padding: 0;
+}
+
+/* End of Footer */
+
+/* contact section*/
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
+}
+input[type=submit] {
+    background-color: #a3827c;
+    color: white;
+    padding: 20px 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.names {
+    position: relative;
+    width: 48%;
+    
+    padding: 0px;
+    display: inline-block;
+}
+
+.contact {
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.info {
+    position: relative;
+    margin-left: 40px; 
+
+}
+
+.column {
+    float: left;
+    width: 48%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+#lname {
+    position: relative;
+    margin-left: 20px;
+}
+
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hide-on-mobile{
+    display: none;
+}
+
+/* end of contact section */
+
+
     .footer {
         background-color: #EFEFEE;
     }
@@ -550,4 +648,5 @@ label {
         clear: both;
     }
     /* end of contact section */
+
 }
