@@ -67,6 +67,7 @@ button {
     height: 70%;
     margin-left: 80px;
     margin-top: 10px;
+    border-radius: 15px;
 }
 
 .HeadingOne {
@@ -82,6 +83,10 @@ button {
 
 .member {
     background-color: #EFEFEE;
+}
+
+.member h1 {
+    color: #A3826C;
 }
 
 .mission {
@@ -236,7 +241,6 @@ input[type=submit] {
     padding: 10px 28px;
     border: none;
     cursor: pointer;
-    border-radius: ;
 }
 
 label {
@@ -451,7 +455,7 @@ input[type=submit] {
 
 /* end of contact section */
 
-=======
+
     .footer {
         background-color: #EFEFEE;
     }
