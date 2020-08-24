@@ -116,9 +116,11 @@ button {
 }
 
 .copy {
-    margin-left: 11px;
+    width: 100px;
+    padding: 0;
     position: relative;
-    left: 35vw;
+    left: 130px;
+    margin: 0;
 }
 
 
@@ -365,6 +367,91 @@ label {
     /* End of Get involved */
 
     /* Footer */
+
+.footer {
+    background-color: #EFEFEE;
+}
+
+.icon {
+    margin-left: 12px;
+    position: relative;
+    left: 22vw;
+}
+
+.copy{
+   
+    width: 100px;
+    padding: 0;
+}
+
+/* End of Footer */
+
+/* contact section*/
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
+}
+input[type=submit] {
+    background-color: #a3827c;
+    color: white;
+    padding: 20px 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.names {
+    position: relative;
+    width: 48%;
+    
+    padding: 0px;
+    display: inline-block;
+}
+
+.contact {
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.info {
+    position: relative;
+    margin-left: 40px; 
+
+}
+
+.column {
+    float: left;
+    width: 48%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+#lname {
+    position: relative;
+    margin-left: 20px;
+}
+
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hide-on-mobile{
+    display: none;
+}
+
+/* end of contact section */
+
+=======
     .footer {
         background-color: #EFEFEE;
     }
@@ -434,4 +521,5 @@ label {
         clear: both;
     }
     /* end of contact section */
+
 }
