@@ -1,26 +1,60 @@
 // Community section
-const recipeBtn = document.querySelector('.recipe');
-const fullRec = document.querySelector('.fullRecipe');
-const hide = document.querySelector('.exit');
-const show = document.querySelector('.member');
-const butto = document.querySelector('.but');
-const read = document.querySelector('.AboutOne');
+const recipeLink = document.querySelector('.recipe');
+const avoLink = document.querySelector('.avo');
+const churroLink = document.querySelector('.churr');
+const fullQuasa = document.querySelector('.fullQuasa');
+const fullOnion = document.querySelector('.fullOnion');
+const fullChurro = document.querySelector('.fullChurro');
+const hide = document.querySelector('.exit1');
+const hide2 = document.querySelector('.exit2');
+const hide3 = document.querySelector('.exit3');
 
+fullQuasa.style.display = 'none';
+fullOnion.style.display = 'none';
+fullChurro.style.display = 'none';
 
-fullRec.style.display = 'none';
-show.style.display = 'none';
-
-recipeBtn.addEventListener('click', () => {
-    recipeBtn.style.display = 'none';
-    fullRec.style.display = 'block';
+recipeLink.addEventListener('click', e => {
+    e.stopPropagation();
+    recipeLink.style.display = 'none';
+    fullQuasa.style.display = 'block';
 });
 
-fullRec.addEventListener('click', () => {
-    recipeBtn.style.display = 'block';
-    fullRec.style.display = 'none';
+avoLink.addEventListener('click', e => {
+    e.stopPropagation();
+    avoLink.style.display = 'none';
+    fullOnion.style.display = 'block';
+});
+
+churroLink.addEventListener('click', e => {
+    e.stopPropagation();
+    churroLink.style.display = 'none';
+    fullChurro.style.display = 'block';
+});
+
+hide.addEventListener('click', () => {
+    recipeLink.style.display = 'block';
+    fullQuasa.style.display = 'none';
+});
+
+hide2.addEventListener('click', () => {
+    avoLink.style.display = 'block';
+    fullOnion.style.display = 'none';
+});
+
+hide3.addEventListener('click', () => {
+    churroLink.style.display = 'block';
+    fullChurro.style.display = 'none';
 });
 
 // End of Community section
+
+
+const show = document.querySelector('.member');
+const butto = document.querySelector('.but');
+const read = document.querySelector('.AboutOne');
+const showTwo = document.querySelector('.ReadMoreTwo');
+
+show.style.display = 'none';
 
 butto.addEventListener('click', () => {
     butto.style.display = 'none';
@@ -36,24 +70,8 @@ show.addEventListener('click', () => {
 const donate = document.querySelector('.donateBtn');
 const volunteer = document.querySelector('.volBtn');
 const sponsor = document.querySelector('.sponsBtn');
+const volForm = document.querySelector('.register');
 
+volForm.style.display = 'none';
 
-
-                         
-const show = document.querySelector('.ReadMore');
-const butto = document.querySelector('.but');
-const read = document.querySelector('.AboutOne');
-const showTwo = document.querySelector('.ReadMoreTwo');
-
-show.style.display = 'none';
-// This function make the full information on the about page display when you click on the read more button
-butto.addEventListener('click', () => {
-    butto.style.display = 'none';
-    show.style.display = 'block';
-});
-
-show.addEventListener('click', () => {
-    butto.style.display = 'block';
-    show.style.display = 'none';
-});
 

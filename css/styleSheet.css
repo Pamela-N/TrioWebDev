@@ -30,6 +30,7 @@ button {
     padding: 10px 28px;
     border: none;
     cursor: pointer;
+    border-radius: 50px;
 }
 
 
@@ -58,13 +59,12 @@ button {
 /* End of Header */
 
 
-
 /* about css mobile */
 
 .BoardImage {
     text-align: center;
     width: 70%;
-    height: 60%;
+    height: 70%;
     margin-left: 80px;
     margin-top: 10px;
 }
@@ -76,12 +76,36 @@ button {
 
 .card {
     height: 60vh;
+    border: none !important;
+    background: #EFEFEE;
 }
+
+.member {
+    background-color: #EFEFEE;
+}
+
+.mission {
+    margin-left: 5px;
+}
+
+.but {
+    margin-left: 53vw;
+    margin-top: 0;
+    margin-bottom: 80px;
+    border-radius: 4px;
+}
+
+.head {
+    margin-top: 20px;
+}
+
+
+/* end of about page */
 
 
 /* Footer */
 
-   .footer {
+.footer {
     background-color: #EFEFEE;
 }
 
@@ -91,7 +115,7 @@ button {
     left: 13vw;
 }
 
-.copy{
+.copy {
     width: 100px;
     padding: 0;
     position: relative;
@@ -99,9 +123,13 @@ button {
     margin: 0;
 }
 
+
 /* End of Footer */
 
+
 /* Community section (mobile) */
+
+
 /* general */
 
 #community {
@@ -111,6 +139,7 @@ button {
 
 .commHead {
     text-align: center;
+    padding-top: 20px;
 }
 
 .team {
@@ -120,25 +149,54 @@ button {
 }
 
 .recipe {
-    margin-left: 80px;
+    margin-left: 120px;
+    border-radius: 5px;
 }
 
 .fullRecipe {
     font-size: smaller;
 }
 
+.exit1 {
+    color: black;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.exit2 {
+    color: black;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.exit3 {
+    color: black;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
 /* End of Community section */
+
 
 /* quote */
 
-.quote h1{
+.quote h1 {
     font-size: 35px;
 }
+
 
 /* End of quote */
 
 
 /* Get involved (mobile) */
+
 .involvedSec {
     background-color: #3E3D3D;
     color: white;
@@ -153,10 +211,12 @@ button {
     background-color: rgba(146, 219, 146, 0.4);
 }
 
+
 /* End of Get involved section */
 
 
 /* contact section */
+
 input[type=text],
 select,
 textarea {
@@ -167,41 +227,56 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     background-color: #f2f2f2;
+    border-radius: 4px;
 }
 
 input[type=submit] {
     background-color: #a3827c;
     color: white;
-    padding: 20px 28px;
+    padding: 10px 28px;
     border: none;
     cursor: pointer;
+    border-radius: ;
+}
+
+label {
+    transform: translateY(1vh);
 }
 
 .contact {
     position: relative;
     margin-right: 40px;
-    
 }
 
-.formdiv{
-
+.formdiv {
     position: relative;
     margin-top: 50px;
 }
 
-#fname{
+
+/* #fname{
     position: relative;
     margin-top: 10px;
-}
+} */
+
+
+/*end of contact section*/
+
+
+/* desktop csss  */
+
+
 /*end of contact section*/
 
 
 /* desktop   */
 
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+
 @media only screen and (min-width: 1200px) {
-       /* Header */
-       .heroText {
+    /* Header */
+    .heroText {
         font-size: 60px;
         margin-left: 5vw;
         color: white;
@@ -231,31 +306,43 @@ input[type=submit] {
         margin-top: 7vh;
     }
     /* End of About section   */
-
-    
     /* Community section (desktop) */
     .commHead {
-        font-size: 60px;
+        font-size: 50px;
         text-align: left;
         margin-left: 5vw;
+        padding-top: 25px;
     }
-
     .imgDiv {
         text-align: center;
     }
-
     .team {
         text-align: center;
-        width: 30vw;
-        height: 70vh;
+        width: 40vw;
+        height: 90vh;
         margin: 0px 20px;
     }
-
     .recipe {
         margin: 0;
     }
-
-    .exit {
+    .recDescr {
+        padding-right: 30px;
+    }
+    .exit1 {
+        color: black;
+        float: right;
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+    .exit2 {
+        color: black;
+        float: right;
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+    .exit3 {
         color: black;
         float: right;
         font-size: 25px;
@@ -263,19 +350,14 @@ input[type=submit] {
         margin-right: 50px;
     }
     /* End of Community section */
-
-
     /* quote */
-    .quote h1{
+    .quote h1 {
         font-size: 50px;
     }
-
-    .quote{
+    .quote {
         margin-left: 20vw;
     }
-
     /* End of Quote */
-
     /* Get involved (desktop) */
     .involvedSec {
         background-color: #3E3D3D;
@@ -369,12 +451,75 @@ input[type=submit] {
 
 /* end of contact section */
 
+=======
+    .footer {
+        background-color: #EFEFEE;
+    }
+    .icon {
+        margin-left: 12px;
+        position: relative;
+        left: 22vw;
+    }
+    .copy {
+        margin-left: 11px;
+        position: relative;
+        left: 46vw;
+    }
+    /* End of Footer */
+    /* contact section*/
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.363);
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        background-color: #f2f2f2;
+        border-radius: 4px;
+    }
+    input[type=submit] {
+        background-color: #a3827c;
+        color: white;
+        padding: 20px 28px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    label {
+        transform: translateY(1vh);
+    }
+    .names {
+        position: relative;
+        width: 48%;
+        margin-bottom: 2vh;
+        padding: 0px;
+        display: inline-block;
+    }
+    .contact {
+        border-radius: 5px;
+        padding: 1px;
+    }
+    .info {
+        position: relative;
+        margin-left: 40px;
+    }
+    .column {
+        float: left;
+        width: 48%;
+        margin-top: 6px;
+        padding: 20px;
+    }
+    #lname {
+        position: relative;
+        margin-left: 20px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* end of contact section */
+
 }
- 
-
-
-
-
-
-
-
