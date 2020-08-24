@@ -92,9 +92,11 @@ button {
 }
 
 .copy{
-    margin-left: 11px;
+    width: 100px;
+    padding: 0;
     position: relative;
-    left: 35vw;
+    left: 130px;
+    margin: 0;
 }
 
 /* End of Footer */
@@ -295,9 +297,9 @@ input[type=submit] {
 }
 
 .copy{
-    margin-left: 11px;
-    position: relative;
-    left: 46vw;
+   
+    width: 100px;
+    padding: 0;
 }
 
 /* End of Footer */
