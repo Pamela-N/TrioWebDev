@@ -75,3 +75,5 @@ const volForm = document.querySelector('.register');
 volForm.style.display = 'none';
 
 
+// Gallery
+
