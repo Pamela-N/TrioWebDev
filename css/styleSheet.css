@@ -61,14 +61,7 @@ button {
 
 /* about css mobile */
 
-.BoardImage {
-    text-align: center;
-    width: 70%;
-    height: 70%;
-    margin-left: 80px;
-    margin-top: 10px;
-    border-radius: 15px;
-}
+
 
 .HeadingOne {
     font-size: 50px;
@@ -129,15 +122,10 @@ button {
     left: 130px;
     margin: 0;
 }
-
-
 /* End of Footer */
 
 
 /* Community section (mobile) */
-
-
-/* general */
 
 #community {
     background-color: #3e3d3d;
@@ -151,12 +139,12 @@ button {
 
 .team {
     padding-bottom: 30px;
-    height: 40vh;
-    width: 50vw;
+    height: 45vh;
+    width: 62vw;
 }
 
 .recipe {
-    margin-left: 120px;
+    margin-left: 90px;
     border-radius: 5px;
 }
 
@@ -197,8 +185,6 @@ button {
 .quote h1 {
     font-size: 35px;
 }
-
-
 /* End of quote */
 
 
@@ -227,7 +213,6 @@ button {
 
 .closeBank {
     margin-left: 90%;
-    /* margin-bottom: 50%; */
     font-size: 20px;
     font-weight: bold;
 }
@@ -251,6 +236,42 @@ button {
     font-weight: bold;
 }
 /* End of Volunteer Register form */
+
+
+/* Sponsors & Partners pop-up */
+.sponsors {
+    width: 100%;
+}
+
+.closeSpons {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90%;
+    margin-bottom: 100%;
+}
+
+.logos {
+    margin: 15px 30px;
+}
+
+.trioLogo {
+    width: 75%;
+}
+
+.imanLogo {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.safepadLogo {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.simplifiedLogo {
+    width: 70%;
+}
+/* End of Sponsors & Partners pop-up */
 
 
 /* contact section */
@@ -356,22 +377,22 @@ label {
         font-size: 50px;
         text-align: left;
         margin-left: 5vw;
-        padding-top: 25px;
+        padding-top: 40px;
     }
     .imgDiv {
         text-align: center;
     }
     .team {
         text-align: center;
-        width: 40vw;
-        height: 90vh;
+        width: 22vw;
+        height: 52vh;
         margin: 0px 20px;
     }
     .recipe {
         margin: 0;
     }
     .recDescr {
-        padding-right: 30px;
+        padding-right: 50px;
     }
     .exit1 {
         color: black;
@@ -411,7 +432,7 @@ label {
     .involvedSec {
         background-color: #3E3D3D;
         color: white;
-        padding: 80px 50px;
+        padding: 80px 75px;
     }
 
     .donateBtn {
