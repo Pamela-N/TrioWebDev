@@ -116,3 +116,5 @@ exitSpons.addEventListener('click', () => {
     involvedSec.style.display = 'block';
 });
 
+// Gallery
+

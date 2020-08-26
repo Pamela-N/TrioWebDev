@@ -65,6 +65,14 @@ button {
 /* about css mobile */
 
 
+.BoardImage {
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
 
 .HeadingOne {
     font-size: 50px;
@@ -362,6 +370,15 @@ label {
 
 
     /* about css */
+    .BoardImage {
+        text-align: center;
+        width: 70%;
+        height: 75%;
+        margin-left: 80px;
+        margin-top: 10px;
+        border-radius: 15px;
+    }
+
     .HeadingOne {
         font-size: 80px;
         margin-right:10vw ;
@@ -432,10 +449,11 @@ label {
 
     /* quote */
     .quote h1 {
-        font-size: 50px;
+        font-size: 60px;
+        width: 60vw;
     }
     .quote {
-        margin-left: 20vw;
+        margin-left: 18vw;
     }
     /* End of Quote */
 
@@ -624,3 +642,7 @@ label {
     /* end of contact section */
 
 }
+
+
+/* Gallery */
+
