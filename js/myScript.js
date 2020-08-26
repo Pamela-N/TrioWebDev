@@ -66,14 +66,55 @@ show.addEventListener('click', () => {
     butto.style.display = 'block';
 });
 
-// Get Involved
+
+// Get Involved Section & Pop-ups
+const involvedSec = document.querySelector('.involvedSec');
 const donate = document.querySelector('.donateBtn');
 const volunteer = document.querySelector('.volBtn');
 const sponsor = document.querySelector('.sponsBtn');
 const volForm = document.querySelector('.register');
+const exitVol = document.querySelector('.closeVol');
+const donateDetails = document.querySelector('.details');
+const exitDon = document.querySelector('.closeBank');
+const partners = document.querySelector('.sponsors');
+const exitSpons = document.querySelector('.closeSpons');
 
+donateDetails.style.display = 'none';
 volForm.style.display = 'none';
+partners.style.display = 'none';
 
+// Donate form
+donate.addEventListener('click', () => {
+    involvedSec.style.display = 'none';
+    donateDetails.style.display = 'block';
+});
+
+exitDon.addEventListener('click', () => {
+    donateDetails.style.display = 'none';
+    involvedSec.style.display = 'block';
+});
+
+// Volunteer form
+volunteer.addEventListener('click', () => {
+    involvedSec.style.display = 'none';
+    volForm.style.display = 'block';
+});
+
+exitVol.addEventListener('click', () => {
+    volForm.style.display = 'none';
+    involvedSec.style.display = 'block';
+});
+
+// Partners logos
+sponsor.addEventListener('click', () => {
+    involvedSec.style.display = 'none';
+    partners.style.display = 'block';
+});
+
+exitSpons.addEventListener('click', () => {
+    partners.style.display = 'none';
+    involvedSec.style.display = 'block';
+});
 
 // Gallery
 

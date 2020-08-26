@@ -10,8 +10,12 @@ body {
 p,
 a {
     font-family: 'PT Sans', sans-serif;
+     text-decoration-style: none;
+     
 }
-
+a:active{
+    text-decoration-style: none;
+}
 h1,
 h2,
 h3,
@@ -32,7 +36,6 @@ button {
     cursor: pointer;
     border-radius: 50px;
 }
-
 
 /* Header */
 
@@ -60,6 +63,7 @@ button {
 
 
 /* about css mobile */
+
 
 .BoardImage {
     text-align: center;
@@ -94,10 +98,18 @@ button {
 }
 
 .but {
-    margin-left: 53vw;
+        margin-left: 22vw;
+        margin-top: 0;
+        margin-bottom: 80px;
+        border-radius: 4px;
+        width: 200px;
+        height: 50px;
+    }
     margin-top: 0;
     margin-bottom: 80px;
     border-radius: 4px;
+    width: 200px;
+    height: 50px;
 }
 
 .head {
@@ -127,15 +139,10 @@ button {
     left: 130px;
     margin: 0;
 }
-
-
 /* End of Footer */
 
 
 /* Community section (mobile) */
-
-
-/* general */
 
 #community {
     background-color: #3e3d3d;
@@ -149,12 +156,12 @@ button {
 
 .team {
     padding-bottom: 30px;
-    height: 40vh;
-    width: 50vw;
+    height: 45vh;
+    width: 62vw;
 }
 
 .recipe {
-    margin-left: 120px;
+    margin-left: 90px;
     border-radius: 5px;
 }
 
@@ -195,8 +202,6 @@ button {
 .quote h1 {
     font-size: 35px;
 }
-
-
 /* End of quote */
 
 
@@ -210,22 +215,88 @@ button {
 }
 
 .details {
-    border: 5px solid #EDA443;
-    padding: 10px;
-    margin: 20px;
-    background-color: rgba(146, 219, 146, 0.4);
+   text-align: center;
+   background-color: #3E3D3D;
+   padding: 50px 0px;
+   color: white;
 }
-
-
 /* End of Get involved section */
 
 
-/* contact section */
+/* Banking details pop-up */
+.details {
+    padding: 20px 20px;
+}
 
+.closeBank {
+    margin-left: 90%;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* End of Banking details pop-up */
+
+
+/* Volunteer Register form (desktop) */
+.register {
+    padding: 30px 30px;
+    background-color: #3E3D3D;
+    color: white;
+}
+
+.regSubmit {
+    border-radius: 4px;
+}
+
+.closeVol {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* End of Volunteer Register form */
+
+
+/* Sponsors & Partners pop-up */
+.sponsors {
+    width: 100%;
+}
+
+.closeSpons {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 90%;
+    margin-bottom: 100%;
+}
+
+.logos {
+    margin: 15px 30px;
+}
+
+.trioLogo {
+    width: 75%;
+}
+
+.imanLogo {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.safepadLogo {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.simplifiedLogo {
+    width: 70%;
+}
+/* End of Sponsors & Partners pop-up */
+
+
+/* contact section */
+ 
 input[type=text],
 select,
 textarea {
-    width: 120%;
+    width: 100%;
     padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.363);
     margin-top: 6px;
@@ -236,33 +307,35 @@ textarea {
 }
 
 input[type=submit] {
+    position: relative;
     background-color: #a3827c;
     color: white;
-    padding: 10px 28px;
-    border: none;
-    cursor: pointer;
+    border-radius:4px ;
+    text-align: center;
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    font-size: 1.3em;
 }
 
 label {
     transform: translateY(1vh);
 }
+.bttn{
+    border-radius: 4px ;
+}
+   
 
 .contact {
     position: relative;
     margin-right: 40px;
-}
+} 
 
 .formdiv {
     position: relative;
     margin-top: 50px;
 }
-
-
-/* #fname{
-    position: relative;
-    margin-top: 10px;
-} */
-
+ 
 
 /*end of contact section*/
 
@@ -270,10 +343,6 @@ label {
 /* desktop csss  */
 
 
-/*end of contact section*/
-
-
-/* desktop   */
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -298,6 +367,8 @@ label {
         position: relative;
     }
     /* End of Header */
+
+
     /* about css */
     .BoardImage {
         text-align: center;
@@ -310,6 +381,11 @@ label {
 
     .HeadingOne {
         font-size: 80px;
+        margin-right:10vw ;
+    }
+    .Headingtwo {
+        font-size: 80px;
+        margin-left:3vw ;
     }
     .about {
         margin-top: 25vh;
@@ -318,28 +394,34 @@ label {
     #carouselExampleControls {
         margin-top: 7vh;
     }
+    .but {
+        margin-left: 54vw;
+     
+    }
     /* End of About section   */
+
+
     /* Community section (desktop) */
     .commHead {
         font-size: 50px;
         text-align: left;
         margin-left: 5vw;
-        padding-top: 25px;
+        padding-top: 40px;
     }
     .imgDiv {
         text-align: center;
     }
     .team {
         text-align: center;
-        width: 40vw;
-        height: 90vh;
+        width: 22vw;
+        height: 52vh;
         margin: 0px 20px;
     }
     .recipe {
         margin: 0;
     }
     .recDescr {
-        padding-right: 30px;
+        padding-right: 50px;
     }
     .exit1 {
         color: black;
@@ -363,6 +445,8 @@ label {
         margin-right: 50px;
     }
     /* End of Community section */
+
+
     /* quote */
     .quote h1 {
         font-size: 60px;
@@ -372,13 +456,91 @@ label {
         margin-left: 18vw;
     }
     /* End of Quote */
+
+
     /* Get involved (desktop) */
     .involvedSec {
         background-color: #3E3D3D;
         color: white;
-        padding: 80px 50px;
+        padding: 80px 75px;
+    }
+
+    .donateBtn {
+        border-radius: 4px;
+    }
+
+    .volBtn {
+        border-radius: 4px;
+    }
+
+    .sponsBtn {
+        border-radius: 4px;
     }
     /* End of Get involved */
+
+
+    /* Banking details pop-up */
+    .closeBank {
+        margin-left: 70%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    /* End of Banking details pop-up */
+
+
+    /* Volunteer Register form (desktop) */
+    .register {
+        padding: 50px 100px;
+        background-color: #3E3D3D;
+        color: white;
+    }
+
+    .regSubmit {
+        border-radius: 4px;
+    }
+
+    .closeVol {
+        float: right;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    /* End of Volunteer Register form */
+
+
+    /* Sponsors & Partners pop-up */
+    .sponsors {
+        padding: 50px 10px;
+    }
+
+    .closeSpons {
+        float: right;
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+
+    .logos {
+        margin: 30px;
+    }
+
+    .trioLogo {
+        width: 15%;
+    }
+
+    .imanLogo {
+        width: 35%;
+    }
+    
+    .safepadLogo {
+        width: 12%;
+        margin-bottom: 50px;
+    }
+
+    .simplifiedLogo {
+        width: 10%;
+    }
+    /* End of Sponsors & Partners pop-up */
+
 
     /* Footer */
 
@@ -400,70 +562,6 @@ label {
 
 /* End of Footer */
 
-/* contact section*/
-
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.363);
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    background-color: #f2f2f2;
-}
-input[type=submit] {
-    background-color: #a3827c;
-    color: white;
-    padding: 20px 28px;
-    border: none;
-    cursor: pointer;
-}
-
-.names {
-    position: relative;
-    width: 48%;
-    
-    padding: 0px;
-    display: inline-block;
-}
-
-.contact {
-    border-radius: 5px;
-    padding: 1px;
-}
-
-.info {
-    position: relative;
-    margin-left: 40px; 
-
-}
-
-.column {
-    float: left;
-    width: 48%;
-    margin-top: 6px;
-    padding: 20px;
-}
-
-#lname {
-    position: relative;
-    margin-left: 20px;
-}
-
-.row:after {
-
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.hide-on-mobile{
-    display: none;
-}
-
-/* end of contact section */
 
 
     .footer {
@@ -480,6 +578,8 @@ input[type=submit] {
         left: 46vw;
     }
     /* End of Footer */
+
+
     /* contact section*/
     input[type=text],
     select,
@@ -511,10 +611,10 @@ input[type=submit] {
         padding: 0px;
         display: inline-block;
     }
-    .contact {
+    #contact {
         border-radius: 5px;
         padding: 1px;
-    }
+            }
     .info {
         position: relative;
         margin-left: 40px;
@@ -533,6 +633,11 @@ input[type=submit] {
         content: "";
         display: table;
         clear: both;
+    }
+
+
+    .sponsBtn {
+        border-radius: 4px;
     }
     /* end of contact section */
 
